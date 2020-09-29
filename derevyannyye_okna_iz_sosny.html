@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "stylesheet" href = "style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--JQuery-->
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+</script>
+
+
+  <script src="script.js"></script>
+    <title>Vithouse</title>
+
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/responsiveCarousel.min.js"></script>
+  </head>
+  <body>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказ расчета</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Номер телефона</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">e-mail</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Укажите данные для расчета</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" style = "border: none; background-color: rgb(218, 84, 84);">Отправить запрос</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Номер телефона</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" style = "border: none; background-color: rgb(218, 84, 84);">Отправить запрос</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class = "navbar-1">
+<div class = "logo"><a href=#><img class = "logo" src = "favicon-jpg.JPG"></a></div>
+<div class = "services">
+   <ul class = "hr">
+        <li><a href=#>Установка</a>
+        <li><a href=#>Сервис</a>
+        <li><a href=#>О компании</a>
+        <li><a href=#>Офисы</a>            
+   </ul>
+</div>
+<br>
+
+<div class = "block-contacts">
+   <div id = "contact-email">
+     <p>Наша почта: <br> alex-pale@mail.ru</p>
+   </div>
+   <div id = "contact-phone">
+     <p>Москва <br> +800 777 77 77</p>
+   </div>
+   <div id = "time-of-work"><p>Время работы: <br>ежедневно, 9.00 - 18.00</p></div>
+</div>
+
+</div>
+-->
+
+
+
+<!--Все что менбше 1220px - мобильная оптимизация-->
+
+<div class = "navbar-1">
+  <div style = "height: 125px; min-width: 20%; border: 2px dashed orange;">  
+    <a href=#><img class = "logo" src = "favicon-jpg.JPG"></a>
+  </div>
+
+  <div class = "nav1-flexblock2" style = "min-width: 80%;">
+    <div style = "height: 50px; min-width: 100%; border: 1px solid yellow; "> 
+      <div class = "services">
+        <ul class = "hr">
+          <li><a href="installation.html">Установка</a>
+          <li><a href="service.html">Сервис</a>
+          <li><a href="about-company.html">О компании</a>
+          <li><a href="offices.html">Офисы</a>            
+        </ul>
+      </div>
+    </div>
+
+    <div style = "height: 75px; border: 2px solid seagreen; width: 100%;  ">  
+      <div class = "block-contacts">  
+        <div id = "contact-email">
+          <p>Наша почта: <br><img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">alex-pale@mail.ru</span></p>
+        </div>
+        <div id = "contact-phone">
+          <p>Москва <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+        </div>
+        <div id = "contact-phone">
+          <p>Санкт-Петербург <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+        </div>
+        <div id = "time-of-work"><p>Время работы: <br>ежедневно, 9.00 - 18.00</p>
+        </div>
+         <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id = "get-digits" href = "#">Заказать расчет</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--
+    <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href = "#">Заказать расчет</a>
+  -->
+
+    
+
+
+
+
+
+
+
+
+<div class = "navbar-2">
+<ul class="menu">
+    <li><a href="panoramnyie_okna.html">Панорамные окна</a>
+        <ul class="submenu">
+            <li><a href="patio_life.html">Patio Life</a></li>
+            <li><a href="patio_fold.html">Patio Fold</a></li>
+            <li><a href="patio_alversa.html">Patio Alversa</a></li>
+            <li><a href="patio_sky.html">Patio Sky</a></li>
+        </ul>
+    </li>
+
+  <li><a href="derevyannyye_okna.html">Деревянные окна</a>
+        <ul class="submenu">
+             <li id = "sub-ul-1"><a href="derevyannyye_okna_iz_sosny.html"id = "sub-ul-1">Окна из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu">
+            <li><a href="derevyannyye_okna_iz_sosny_rustic.html">Rustic</a></li>
+            <li><a href="derevyannyye_okna_iz_sosny_optima.html">Optima</a></li>
+            <li><a href="derevyannyye_okna_iz_sosny_classic.html">Classic</a></li>
+            <li><a href="derevyannyye_okna_iz_sosny_elegant.html">Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="derevyannyye_okna_iz_duba.html" id = "sub-ul-1">Окна из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+            <li><a href="derevyannyye_okna_iz_duba_rustic.html">Rustic</a></li>
+            <li><a href="derevyannyye_okna_iz_duba_optima.html">Optima</a></li>
+            <li><a href="derevyannyye_okna_iz_duba_classic.html">Classic</a></li>
+            <li><a href="derevyannyye_okna_iz_duba_elegant.html">Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="derevyannyye_okna_iz_listvennitsy.html" id = "sub-ul-1" >Окна из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 89px;">
+            <li><a href="derevyannyye_okna_iz_listvennitsy_rustic.html">Rustic</a></li>
+            <li><a href="derevyannyye_okna_iz_listvennitsy_optima.html">Optima</a></li>
+            <li><a href="derevyannyye_okna_iz_listvennitsy_classic.html">Classic</a></li>
+            <li><a href="derevyannyye_okna_iz_listvennitsy_elegant.html">Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="derevyannyye_okna_iz_krasnogo_dereva.html" id = "sub-ul-1">Окна из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 133px;">
+            <li><a href="derevyannyye_okna_iz_krasnogo_dereva_rustic.html">Rustic</a></li>
+            <li><a href="derevyannyye_okna_iz_krasnogo_dereva_optima.html">Optima</a></li>
+            <li><a href="derevyannyye_okna_iz_krasnogo_dereva_classic.html">Classic</a></li>
+            <li><a href="derevyannyye_okna_iz_krasnogo_dereva_elegant.html">Elegant</a></li>
+        </ul>
+            </li>
+            <li><a href="profiles.html">Профили</a></li>
+            <li id = "sub-ul-1"><a href="components.html"id = "sub-ul-1">Комплектующие</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 175px;">
+            <li><a href="furnitura_dlya_okon.html">Фурнитура для окон</a></li>
+            <li><a href="uplotniteli_i_silikon.html">Уплотнители и силикон</a></li>
+            <li><a href="otdelka.html">Отделка</a></li>
+            <li><a href="handles.html">Ручки</a></li>
+        </ul>
+            </li>
+
+            <li id = "sub-ul-2"><a href="accessories.html">Аксусуары</a>
+        <ul id="sub-submenu-2" class = "sub-submenu" style = "top: 85px;">
+            <li><a href="dekorativnyye_pereplety.html">Декоративные переплеты</a></li>
+            <li><a href="stavni.html">Ставни</a></li>
+            <li><a href="podokonniki.html">Подоконники</a></li>
+            <li><a href="otkosy.html">Откосы</a></li>
+            <li><a href="moskitnyye_setki.html">Москитные сетки</a></li>
+            <li><a href="svetoprozrachnyye_ograzhdeniya.html">Светопрозрачные ограждения</a></li>
+            <li><a href="nabory_po_ukhodu.html">Наборы по уходу</a></li>
+            <li><a href="otlivy.html">Отливы</a></li>
+        </ul>
+            </li>
+            <li><a href="automation_system.html">Системы автоматизации</a></li>
+        </ul>
+    </li>
+
+
+     <li><a href="derevo-alyuminievyie-okna.html">Дерево-алюминивые окна</a>
+        <ul class="submenu">
+              <li id = "sub-ul-1"><a href="derevo_alyuminiyevyye_okna_iz_sosny.html"id = "sub-ul-1">Окна из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu">          
+            <li><a href="derevo_alyuminiyevyye_okna_iz_sosny_rustic.html">Rustic</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_sosny_optima.html">Optima</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_sosny_contour.html">Contour</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_sosny_integral.html">Integral</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_sosny_acoustic.html">Acoustic</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy.html" id = "sub-ul-1" >Окна из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+            <li><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy_rustic.html">Rustic</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy_optima.html">Optima</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy_contour.html">Contour</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy_integral.html">Integral</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_listvennitsy_acoustic.html">Acoustic</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="derevo_alyuminiyevyye_okna_iz_duba.html" id = "sub-ul-1" >Окна из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 89px;">
+            <li><a href="derevo_alyuminiyevyye_okna_iz_duba_rustic.html">Rustic</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_duba_optima.html">Optima</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_duba_contour.html">Contour</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_duba_integral.html">Integral</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_duba_acoustic.html">Acoustic</a></li>
+        </ul>
+            </li>
+            
+            <li id = "sub-ul-1"><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva.html" id = "sub-ul-1" >Окна из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 133px;">
+            <li><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva_rustic.html">Rustic</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva_optima.html">Optima</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva_contour.html">Contour</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva_integral.html">Integral</a></li>
+            <li><a href="derevo_alyuminiyevyye_okna_iz_krasnogo_dereva_acoustic.html">Acoustic</a></li>
+        </ul>
+            </li>
+           
+            <li><a href="profiles.html">Профили</a></li>
+            <li id = "sub-ul-1"><a href="components.html"id = "sub-ul-1">Комплектующие</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 175px;">
+            <li><a href="furnitura_dlya_okon.html">Фурнитура для окон</a></li>
+            <li><a href="uplotniteli_i_silikon.html">Уплотнители и силикон</a></li>
+            <li><a href="otdelka.html">Отделка</a></li>
+            <li><a href="handles.html">Ручки</a></li>
+        </ul>
+            </li>
+
+              <li id = "sub-ul-2"><a href="accessories.html">Аксусуары</a>
+        <ul id="sub-submenu-2" class = "sub-submenu" style = "top: 85px;">
+            <li><a href="dekorativnyye_pereplety.html">Декоративные переплеты</a></li>
+            <li><a href="stavni.html">Ставни</a></li>
+            <li><a href="podokonniki.html">Подоконники</a></li>
+            <li><a href="otkosy.html">Откосы</a></li>
+            <li><a href="moskitnyye_setki.html">Москитные сетки</a></li>
+            <li><a href="svetoprozrachnyye_ograzhdeniya.html">Светопрозрачные ограждения</a></li>
+            <li><a href="nabory_po_ukhodu.html">Наборы по уходу</a></li>
+            <li><a href="otlivy.html">Отливы</a></li>
+        </ul>
+            </li>
+            <li><a href="automation_system.html">Системы автоматизации</a></li>
+        </ul>
+    </li>
+
+    <li><a href="vhodnyie_dveri.html">Входные двери</a>
+        <ul class="submenu">
+            <li id = "sub-ul-1"><a href="vhodnyie_dveri_iz_sosny.html" id = "sub-ul-1" >Двери из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 0px;">
+           <li><a href="vhodnyie_dveri_iz_sosny_dv_modern.html">DV MODERN</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_rustic.html">DV RUSTIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_optima.html">DV OPTIMA</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_classic.html">DV CLASSIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_modern_al.html">DV MODERN AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_optima_al.html">DV OPTIMA AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_classic_al.html">DV CLASSIC AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_sosny_dv_contour_al.html">DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="vhodnyie_dveri_iz_listvennitsy.html" id = "sub-ul-1" >Двери из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+           <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_modern.html" >DV MODERN</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_rustic.html">DV RUSTIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_optima.html">DV OPTIMA</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_classic.html">DV CLASSIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_modern_al.html">DV MODERN AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_optima_al.html">DV OPTIMA AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_classic_al.html">DV CLASSIC AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_listvennitsy_dv_contour_al.html">DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="vhodnyie_dveri_iz_duba.html" id = "sub-ul-1" >Двери из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 85px;">
+            <li><a href="vhodnyie_dveri_iz_duba_dv_modern.html" >DV MODERN</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_rustic.html">DV RUSTIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_optima.html">DV OPTIMA</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_classic.html">DV CLASSIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_modern_al.html">DV MODERN AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_optima_al.html">DV OPTIMA AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_classic_al.html">DV CLASSIC AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_duba_dv_contour_al.html">DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="vhodnyie_dveri_iz_krasnogo_dereva.html" id = "sub-ul-1" >Двери из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 85px;">
+           <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_modern.html" >DV MODERN</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_rustic.html">DV RUSTIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_optima.html">DV OPTIMA</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_classic.html">DV CLASSIC</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_modern_al.html">DV MODERN AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_optima_al.html">DV OPTIMA AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_classic_al.html">DV CLASSIC AL</a></li>
+            <li><a href="vhodnyie_dveri_iz_krasnogo_dereva_dv_contour_al.html">DV CONTOUR AL</a></li>
+        </ul>
+        <li><a href="automation_system.html">Системы автоматизации</a></li>
+            </li>
+        </ul>
+    </li>
+    <li><a href="zimnie_sadyi.html">Зимние сады</a>
+        <ul class="submenu">
+            <li><a href="zimnie_sadyi_modena.html">Modena</a></li>
+            <li><a href="zimnie_sadyi_scala.html">Scala</a></li>
+            <li><a href="zimnie_sadyi_navara.html">Navara</a></li>
+            <li><a href="zimnie_sadyi_terramo.html">Terramo</a></li>
+            <li><a href="zimnie_sadyi_wood_aluminium.html">Wood-aluminum</a></li>
+            <li><a href="automation_system.html">Системы автоматизации</a></li>
+        </ul>
+    </li>
+    <li><a href="osteklenie.html">Остекление</a>
+        <ul class="submenu">
+            <li><a href="osteklenie_lumon.html">Безрамное остекление Lumon</a></li>
+            <li><a href="osteklenie_stoyechno_rigelnaya_sistema.html">Стоечно-ригельная система</a></li>
+            <li><a href="vitrazhnoye_ostekleniyea.html">Витражное остекление</a></li>
+            <li><a href="razdvizhnoye_ostekleniye.html">Раздвижное остекление</a></li>
+            <li><a href="fasadnoye_ostekleniye.html">Фасадное остекление</a></li>
+            <li><a href="panoramnoye_ostekleniye.html">Панорамное остекление</a></li>
+            <li><a href="ostekleniye_balkonov_i_lodzhiy.html">Остекление балконов и лоджий</a></li>
+            <li><a href="ostekleniye_verand_terras_i_besedok.html">Остекление веранд, террас и беседок</a></li>
+            <li><a href="teploye_ostekleniye_verandy_i_terrasy.html">Теплое остекление веранды и террасы</a></li>
+            <li><a href="kholodnoye_ostekleniye_verandy_i_terrasy.html">Холодное остекление веранды и террасы</a></li>
+        </ul>
+    </li>
+  
+</ul>
+</div>
+
+
+<article>
+<!--Блок1: позиция страницы-->
+    <div aria-label="breadcrumb" style = "background-color: rgb(248,249,250);">
+  <ol class="breadcrumb" style = "max-width: 1220px; margin: auto;background-color: rgb(248,249,250);">
+    <li class="breadcrumb-item"><a class = "bitem-my-changes" href="index.html">Vithouse</a></li>
+    <li class="breadcrumb-item"><a class = "bitem-my-changes" href="derevyannyye_okna.html">Деревянные окна</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Деревянные окна из сосны</li>    
+  </ol>
+</div>
+<!---------------------->
+
+<!--Блок 2: Предложение оставить заявку-->
+
+<div class = "propos1">
+<div class = "propos1-content">
+    <img src = "images/mainpage/carusel/okna.jpg" height = "400px" style = "min-height: 400px;" width = "100%;">
+    <div class = "propos-content-bb1"></div>
+    <div class = "propos1-text">
+    <p>Узнайте, какой вариант профиля, материала, типа конструкции, стеклопакета и фурнитуры будет оптимальным решением для Вашего дома! Получите персональную консультацию!</p>
+        <a  data-toggle="modal"  data-target="#exampleModal-2" data-whatever="@mdo"  id = "get-call" href = "#">Заказать звонок</a>
+
+    </div>
+
+</div>
+</div>
+
+
+<!--------------------------------------->
+<!--Блок 3: Примущесва окно из сосны-->
+
+<div class = "about-company">
+<h2>Преимущества окон из сосны</h2>
+
+
+<div class = "advantages">
+    <div class = "advantage">
+      <img src = "icons/heating.png"  id = "adv-okn-sosn-img">
+      <p>
+       Благодаря природной структуре сосны, материал отличается более восыкой теплоемкостью относительно других древесных материалов
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "icons/price.png" id = "adv-okn-sosn-img">
+      <p>
+       Окна из сосны являются самым бюджетным вариантом среди других аналогов из натуральной древесины
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "icons/lightweight.png" id = "adv-okn-sosn-img">
+      <p>
+Плотность древесины из хвойных материалов ниже плотности материалов из лиственных пород древесины, что позволяет уменьшить нагрузку на стены и фурнитуру при эксплуатации
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "icons/certificate.png" id = "adv-okn-sosn-img">
+      <p>
+        Продукция имеет все необходимые сертификаты, гарантирующие ее качество и безопасность при эксплуатации 
+      </p>
+      <a name = "kek"></a>
+    </div>
+
+</div>
+
+</div>
+<!----------------------->
+
+
+
+<br><br><br><br><br>
+</article>
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+</body>
+</html> 

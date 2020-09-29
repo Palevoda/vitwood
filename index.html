@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "stylesheet" href = "style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--JQuery-->
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+</script>
+
+
+  <script src="script.js"></script>
+    <title>Vithouse</title>
+
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/responsiveCarousel.min.js"></script>
+  </head>
+  <body>
+<!--
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-fill">
+  <a class="navbar-brand" href="#"><img id = "navicon-jpg" src = "favicon-jpg.JPG"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+<div  class = "catalog-mobile">
+             <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Панорамныее окна
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center;">
+          <a class="dropdown-item" href="#">Patio Life</a>
+          <a class="dropdown-item" href="#">Patio Fold</a>
+          <a class="dropdown-item" href="#">Patio Alversa</a>
+          <a class="dropdown-item" href="#">Patio Sky</a>
+        </div>
+      </li>
+</div>
+
+
+
+<div  class = "catalog-mobile">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Деревянные окна
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center; border: none;">
+          <a class="dropdown-item" href="#">Окна из сосны</a>
+          <a class="dropdown-item" href="#">Окна из лиственницы</a>
+          <a class="dropdown-item" href="#">Окна из дуба</a>
+          <a class="dropdown-item" href="#">Окна из красного дерева</a>
+        </div>
+      </li>    
+</div>
+
+
+<div  class = "catalog-mobile">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Дерево-алюминивые окна
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center; border: none;">
+          <a class="dropdown-item" href="#">Окна из сосны</a>
+          <a class="dropdown-item" href="#">Окна из лиственницы</a>
+          <a class="dropdown-item" href="#">Окна из дуба</a>
+          <a class="dropdown-item" href="#">Окна из красного дерева</a>
+        </div>
+      </li>    
+</div>
+
+
+<div  class = "catalog-mobile">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Двери
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center; border: none;">
+          <a class="dropdown-item" href="#">Двери из сосны</a>
+          <a class="dropdown-item" href="#">Двери из лиственницы</a>
+          <a class="dropdown-item" href="#">Двери из дуба</a>
+          <a class="dropdown-item" href="#">Двери из красного дерева</a>
+        </div>
+      </li>    
+</div>
+
+
+<div  class = "catalog-mobile">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Зимние сады
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center; border: none;">
+          <a class="dropdown-item" href="#">Modena</a>
+          <a class="dropdown-item" href="#">Scala</a>
+          <a class="dropdown-item" href="#">Navara</a>
+          <a class="dropdown-item" href="#">Terramo</a>
+          <a class="dropdown-item" href="#">Из дерево-алюминия</a>
+        </div>
+      </li>    
+</div>
+
+
+<div  class = "catalog-mobile">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Остекление
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "text-align: center; border: none;">
+          <a class="dropdown-item" href="#">Безрамное остекление Lumon</a>
+          <a class="dropdown-item" href="#">Стоечно-ригельная система</a>
+          <a class="dropdown-item" href="#">Витражное остекление</a>
+          <a class="dropdown-item" href="#">Раздвижное остекление</a>
+          <a class="dropdown-item" href="#">Фасадное остекление</a>
+          <a class="dropdown-item" href="#">Панорамное остекление</a>
+          <a class="dropdown-item" href="#">Остекление балконов и лоджий</a>
+          <a class="dropdown-item" href="#">Остекление веранд, террас и беседок</a>
+          <a class="dropdown-item" href="#">Теплое остекление веранды и террасы</a>
+          <a class="dropdown-item" href="#">Холодное остекление веранды и террасы</a>
+        </div>
+      </li>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">О компании<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Установка</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Сервис</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Офисы</a>
+      </li>
+
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+     
+    </ul>
+  </div>
+</nav>
+
+
+
+<nav>
+    <ul class="nav  nav-fill">
+  <li class="nav-item" id = "cat1">
+    <a class="nav-link" href="#" id = "cat1">Панорамные окна</a>
+    
+    <ul id = "cat1-ul">
+        <li><a href = "#">Pation Life</a></li>
+        <li><a href = "#">Pation Fold</a></li>
+        <li><a href = "#">Pation Alversa</a></li>
+        <li><a href = "#">Pation Sky</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Деревянные окна</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Дерево-алюминивые окна</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Двери</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Зимние сады</a>
+  </li>
+
+   <li class="nav-item dropdown" id = "cat-6">
+        <a id = "ff1"class="nav-link " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Остекление
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "width: 100%;" id = "ul-6">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+
+   <li class="nav-item dropdown" id = "cat-6">
+        <a id = "ff1"class="nav-link " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Остекление
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style = "width: 100%;" id = "ul-6">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+</ul>
+</nav>
+--><!--
+<nav>
+
+<div class = "navigation-2">
+
+    <div class = "nav-block">
+<p class = "sub-name">Панорамные окна</p>
+<div class = "sub-block">
+<div><a class = "sub-link" href = "#">Patio Life</a></div><br>
+<div><a class = "sub-link" href = "#">Patio Fold</a></div><br>
+<div><a class = "sub-link" href = "#">Patio Alversa</a></div><br>
+<div><a class = "sub-link" href = "#">Patio Sky</a></div><br>
+</div>
+    </div>
+
+    <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+    </ul>
+    
+
+
+
+</div>
+
+</nav>
+-->
+
+
+
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказ расчета</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Номер телефона</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">e-mail</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Укажите данные для расчета</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" style = "border: none; background-color: rgb(218, 84, 84);">Отправить запрос</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+<div class = "navbar-1">
+<div class = "logo"><a href=#><img class = "logo" src = "favicon-jpg.JPG"></a></div>
+<div class = "services">
+   <ul class = "hr">
+        <li><a href=#>Установка</a>
+        <li><a href=#>Сервис</a>
+        <li><a href=#>О компании</a>
+        <li><a href=#>Офисы</a>            
+   </ul>
+</div>
+<br>
+
+<div class = "block-contacts">
+   <div id = "contact-email">
+     <p>Наша почта: <br> alex-pale@mail.ru</p>
+   </div>
+   <div id = "contact-phone">
+     <p>Москва <br> +800 777 77 77</p>
+   </div>
+   <div id = "time-of-work"><p>Время работы: <br>ежедневно, 9.00 - 18.00</p></div>
+</div>
+
+</div>
+-->
+
+
+
+<!--Все что менбше 1220px - мобильная оптимизация-->
+
+<div class = "navbar-1">
+  <div style = "height: 125px; min-width: 20%; border: 2px dashed orange;">  
+    <a href=#><img class = "logo" src = "favicon-jpg.JPG"></a>
+  </div>
+
+  <div class = "nav1-flexblock2" style = "min-width: 80%;">
+    <div style = "height: 50px; min-width: 100%; border: 1px solid yellow; "> 
+      <div class = "services">
+        <ul class = "hr">
+          <li><a href=#>Установка</a>
+          <li><a href=#>Сервис</a>
+          <li><a href=#>О компании</a>
+          <li><a href=#>Офисы</a>            
+        </ul>
+      </div>
+    </div>
+
+    <div style = "height: 75px; border: 2px solid seagreen; width: 100%;  ">  
+      <div class = "block-contacts">  
+        <div id = "contact-email">
+          <p>Наша почта: <br><img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">alex-pale@mail.ru</span></p>
+        </div>
+        <div id = "contact-phone">
+          <p>Москва <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+        </div>
+        <div id = "contact-phone">
+          <p>Санкт-Петербург <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+        </div>
+        <div id = "time-of-work"><p>Время работы: <br>ежедневно, 9.00 - 18.00</p>
+        </div>
+         <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id = "get-digits" href = "#">Заказать расчет</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--
+    <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" href = "#">Заказать расчет</a>
+  -->
+
+    
+
+
+
+
+
+
+
+
+<div class = "navbar-2">
+<ul class="menu">
+    <li><a href=#>Панорамные окна</a>
+        <ul class="submenu">
+            <li><a href=#>Patio Life</a></li>
+            <li><a href=#>Patio Fold</a></li>
+            <li><a href=#>Patio Alversa</a></li>
+            <li><a href=#>Patio Sky</a></li>
+        </ul>
+    </li>
+
+    <li><a href="derevyannyye_okna.html">Деревянные окна</a>
+        <ul class="submenu">
+             <li id = "sub-ul-1"><a href="derevyannyye_okna_iz_sosny.html"id = "sub-ul-1">Окна из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Classic</a></li>
+            <li><a href=#>Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="#"id = "sub-ul-1">Окна из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Classic</a></li>
+            <li><a href=#>Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Окна из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 89px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Classic</a></li>
+            <li><a href=#>Elegant</a></li>
+        </ul>
+            </li>
+             <li id = "sub-ul-1"><a href="#"id = "sub-ul-1">Окна из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 133px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Classic</a></li>
+            <li><a href=#>Elegant</a></li>
+        </ul>
+            </li>
+            <li><a href=#>Профили</a></li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1">Комплектующие</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 175px;">
+            <li><a href=#>Фурнитура для окон</a></li>
+            <li><a href=#>Уплотнители и силикон</a></li>
+            <li><a href=#>Отделка</a></li>
+            <li><a href=#>Ручки</a></li>
+        </ul>
+            </li>
+
+            <li id = "sub-ul-2"><a href=#>Аксусуары</a>
+        <ul id="sub-submenu-2" class = "sub-submenu" style = "top: 85px;">
+            <li><a href=#>Декоративные переплеты</a></li>
+            <li><a href=#>Ставни</a></li>
+            <li><a href=#>Подоконники</a></li>
+            <li><a href=#>Откосы</a></li>
+            <li><a href=#>Москитные сетки</a></li>
+            <li><a href=#>Светопрозрачные ограждения</a></li>
+            <li><a href=#>Наборы по уходу</a></li>
+            <li><a href=#>Отливы</a></li>
+        </ul>
+            </li>
+            <li><a href=#>Системы автоматизации</a></li>
+        </ul>
+    </li>
+
+     <li><a href=#>Дерево-алюминивые окна</a>
+        <ul class="submenu">
+              <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Окна из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 0px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Contour</a></li>
+            <li><a href=#>Integral</a></li>
+            <li><a href=#>Acoustic</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Окна из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Contour</a></li>
+            <li><a href=#>Integral</a></li>
+            <li><a href=#>Acoustic</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Окна из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 89px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Contour</a></li>
+            <li><a href=#>Integral</a></li>
+            <li><a href=#>Acoustic</a></li>
+        </ul>
+            </li>
+            
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Окна из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 133px;">
+            <li><a href=#>Rustic</a></li>
+            <li><a href=#>Optima</a></li>
+            <li><a href=#>Contour</a></li>
+            <li><a href=#>Integral</a></li>
+            <li><a href=#>Acoustic</a></li>
+        </ul>
+            </li>
+           <li><a href=#>Профили</a></li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1">Комплектующие</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 175px;">
+            <li><a href=#>Фурнитура для окон</a></li>
+            <li><a href=#>Уплотнители и силикон</a></li>
+            <li><a href=#>Отделка</a></li>
+            <li><a href=#>Ручки</a></li>
+        </ul>
+            </li>
+
+             <li id = "sub-ul-2"><a href=#>Аксусуары</a>
+        <ul id="sub-submenu-2" class = "sub-submenu" style = "top: 85px;">
+            <li><a href=#>Декоративные переплеты</a></li>
+            <li><a href=#>Ставни</a></li>
+            <li><a href=#>Подоконники</a></li>
+            <li><a href=#>Откосы</a></li>
+            <li><a href=#>Москитные сетки</a></li>
+            <li><a href=#>Светопрозрачные ограждения</a></li>
+            <li><a href=#>Наборы по уходу</a></li>
+            <li><a href=#>Отливы</a></li>
+        </ul>
+            </li>
+            <li><a href=#>Системы автоматизации</a></li>
+        </ul>
+    </li>
+
+    <li><a href=#>Входные двери</a>
+        <ul class="submenu">
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Двери из сосны</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 0px;">
+           <li><a href=#>DV MODERN</a></li>
+            <li><a href=#>DV RUSTIC</a></li>
+            <li><a href=#>DV OPTIMA</a></li>
+            <li><a href=#>DV CLASSIC</a></li>
+            <li><a href=#>DV MODERN AL</a></li>
+            <li><a href=#>DV OPTIMA AL</a></li>
+            <li><a href=#>DV CLASSIC AL</a></li>
+            <li><a href=#>DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Двери из лиственницы</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 45px;">
+           <li><a href=#>DV MODERN</a></li>
+            <li><a href=#>DV RUSTIC</a></li>
+            <li><a href=#>DV OPTIMA</a></li>
+            <li><a href=#>DV CLASSIC</a></li>
+            <li><a href=#>DV MODERN AL</a></li>
+            <li><a href=#>DV OPTIMA AL</a></li>
+            <li><a href=#>DV CLASSIC AL</a></li>
+            <li><a href=#>DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Двери из дуба</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 85px;">
+           <li><a href=#>DV MODERN</a></li>
+            <li><a href=#>DV RUSTIC</a></li>
+            <li><a href=#>DV OPTIMA</a></li>
+            <li><a href=#>DV CLASSIC</a></li>
+            <li><a href=#>DV MODERN AL</a></li>
+            <li><a href=#>DV OPTIMA AL</a></li>
+            <li><a href=#>DV CLASSIC AL</a></li>
+            <li><a href=#>DV CONTOUR AL</a></li>
+        </ul>
+            </li>
+            <li id = "sub-ul-1"><a href="#"id = "sub-ul-1" >Двери из красного дерева</a>
+        <ul id="sub-submenu-1" class = "sub-submenu" style = "top: 85px;">
+           <li><a href=#>DV MODERN</a></li>
+            <li><a href=#>DV RUSTIC</a></li>
+            <li><a href=#>DV OPTIMA</a></li>
+            <li><a href=#>DV CLASSIC</a></li>
+            <li><a href=#>DV MODERN AL</a></li>
+            <li><a href=#>DV OPTIMA AL</a></li>
+            <li><a href=#>DV CLASSIC AL</a></li>
+            <li><a href=#>DV CONTOUR AL</a></li>
+        </ul>
+        <li><a href=#>Системы автоматизации</a></li>
+            </li>
+        </ul>
+    </li>
+    <li><a href=#>Зимние сады</a>
+        <ul class="submenu">
+            <li><a href=#>Modena</a></li>
+            <li><a href=#>Scala</a></li>
+            <li><a href=#>Navara</a></li>
+            <li><a href=#>Terramo</a></li>
+            <li><a href=#>Wood-aluminum</a></li>
+            <li><a href=#>Системы автоматизации</a></li>
+        </ul>
+    </li>
+    <li><a href=#>Остекление</a>
+        <ul class="submenu">
+            <li><a href=#>Безрамное остекление Lumon</a></li>
+            <li><a href=#>Стоечно-ригельная система</a></li>
+            <li><a href=#>Витражное остекление</a></li>
+            <li><a href=#>Раздвижное остекление</a></li>
+            <li><a href=#>Фасадное остекление</a></li>
+            <li><a href=#>Панорамное остекление</a></li>
+            <li><a href=#>Остекление балконов и лоджий</a></li>
+            <li><a href=#>Остекление веранд, террас и беседок</a></li>
+            <li><a href=#>Теплое остекление веранды и террасы</a></li>
+            <li><a href=#>Холодное остекление веранды и террасы</a></li>
+        </ul>
+    </li>
+  
+</ul>
+</div>
+
+
+<article>
+
+  <div class = "carusel-type1">
+<!--Карусель (Блок-3)-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Деревянные окна</a></h2>
+    <p>Отличный вариант для рациональных покупателей, которым важна приемлемая цена и качество<br> Гарантия до 7 лет<br>  </p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div>
+    </div>
+
+   <div class="carousel-item">
+               <div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Дерево-алюминивые окна</a></h2>
+    <p>Алюминиевый профиль снаружи, натуральное дерево внутри<br>Для настоящих ценителей роскоши и перфекционизма</p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div>
+    </div>
+     <div class="carousel-item">
+              <div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Входные двери</a></h2>
+    <p>Выпуская продукцию премиального сегмента, мы думаем не только над стилем, но и качеством<br>Мы гарантируем нашим клиентам долговечность продукции</p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div>
+
+    </div>
+
+     <div class="carousel-item">
+              <div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Зимние сады</a></h2>
+    <p>Выпуская продукцию премиального сегмента, мы думаем не только над стилем, но и качеством<br>Мы гарантируем нашим клиентам долговечность продукции</p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div>
+      </div>
+      <div class="carousel-item">
+              <div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Панорамные окна</a></h2>
+    <p>Выпуская продукцию премиального сегмента, мы думаем не только над стилем, но и качеством<br>Мы гарантируем нашим клиентам долговечность продукции</p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div>
+
+   
+
+   
+  </div>
+<div class="carousel-item">
+              <div class="d-block w-100" style = "height: 520px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: 1; opacity: 0.5;"></div>
+
+      <img class="d-block w-100" height= "520px"src="images/mainpage/carusel/dveri.jpg" alt="Первый слайд">
+       <div class="carousel-caption d-md-block main-car-1-my-changes">
+               <div class="d-block w-100" style = "height: 165px;position: absolute; top: 0px; left: 0px; background-color: black;z-index: -1; opacity: 0.6;"></div>
+
+    <h2><a href = "#">Системы автоматизации</a></h2>
+    <p>Выпуская продукцию премиального сегмента, мы думаем не только над стилем, но и качеством<br>Мы гарантируем нашим клиентам долговечность продукции</p>
+    <a href = "#" class = "button-know-more">Узнать больше</a>
+   </div></div>
+  
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+</div>
+<!--------------------->
+
+<!--О компании-->
+<div class = "about-company">
+<h2>О Vithouse</h2>
+  <p>Уже 16 лет мы прочно занимаем лидирующие позиции на территории СНГ в производстве высокотехнологичных светопрозрачных конструкций из дерева и дерево-алюминия. 
+    В своей ежедневной деятельности мы придерживаемся ценностей, основа которых – уважение. Уважение к Вам, нашим клиентам, уважение к нашим партнерам, к окружающей нас природе. 
+    Именно уважение позволяет нам создавать самые современные, технологичные и энергоэффективные элитные окна из дерева для наших взыскательных клиентов.
+</p>
+
+<div class = "advantages">
+    <div class = "advantage">
+      <img src = "images/terraced_images/carpenters.png">
+      <p>
+        Предоставляем гарантию на наши изделия до 10 лет, а в течение 3 лет после установки деревянных окон со стеклопакетом мы осуществляем их бесплатное сервисное обслуживание. Будьте уверены в качестве нашей продукции точно так же, как в нем уверены мы.
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "images/terraced_images/carpenters.png">
+      <p>
+        Предоставляем гарантию на наши изделия до 10 лет, а в течение 3 лет после установки деревянных окон со стеклопакетом мы осуществляем их бесплатное сервисное обслуживание. Будьте уверены в качестве нашей продукции точно так же, как в нем уверены мы.
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "images/terraced_images/carpenters.png">
+      <p>
+        Предоставляем гарантию на наши изделия до 10 лет, а в течение 3 лет после установки деревянных окон со стеклопакетом мы осуществляем их бесплатное сервисное обслуживание. Будьте уверены в качестве нашей продукции точно так же, как в нем уверены мы.
+      </p>
+    </div>
+
+    <div class = "advantage">
+      <img src = "images/terraced_images/carpenters.png">
+      <p>
+        Предоставляем гарантию на наши изделия до 10 лет, а в течение 3 лет после установки деревянных окон со стеклопакетом мы осуществляем их бесплатное сервисное обслуживание. Будьте уверены в качестве нашей продукции точно так же, как в нем уверены мы.
+      </p>
+    </div>
+
+</div>
+
+</div>
+
+
+<br><br><br><br><br>
+<!--Сопутствующие-->
+
+<!---------------------->
+
+<!----------------------->
+</article>
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+</body>
+</html> 

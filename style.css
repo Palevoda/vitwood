@@ -1,0 +1,1628 @@
+/*Навигационная панель*/
+/*
+#navicon-jpg
+{
+    height: 70px;
+    width: 200px;
+}
+.nav
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+    margin: auto;    
+    background-color: rgb(248,249,250);
+    color: rgb(59,59,59)
+}
+
+.nav-item
+{
+    min-width: 200px;
+    background-color: rgb(248,249,250);
+    color: rgb(59,59,59)
+}
+
+.nav-link
+{
+   font-size: 13.5pt;  
+   color: gray;
+}
+
+.nav-link:hover
+{
+    color: rgb(59,59,59);
+}
+
+#nav-2
+{
+    margin: auto;
+}
+
+.nav-item > ul
+{
+    width: 100%;
+    color: gray;
+    list-style-type: none;
+    padding: 0px;
+    display: none;
+
+}
+
+#cat1-ul
+{
+    width: 100%;
+    color: gray;
+    list-style-type: none;
+    padding: 0px;
+    display: block;
+
+}
+
+.nav-item > ul > li > a
+{
+     color: gray;
+     font-size: 12pt;
+     text-decoration: none;
+     margin-top: 5px;
+     margin-bottom: 5px;
+
+}
+
+.nav-item > ul > li > a:hover
+{
+     color: rgb(59,59,59);
+}
+
+.sub-menu > a
+{
+    font-size: 11pt;
+}
+
+.catalog-mobile
+{
+display: none;
+}
+
+@media (min-width: 200px) and (max-width: 990px)
+{
+    .catalog-mobile
+    {
+        display: block;
+    }
+}*/
+/*------------------------------------------*/
+
+@font-face{
+  font-family: 'roboto';
+  src:  url('fonts\Roboto-Black.ttf');  
+}
+
+body 
+{
+    width: 100%;
+  
+}
+
+body, article{
+    font-family: roboto;
+    background-color: rgb(248,249,250);
+    
+}
+
+article 
+{
+position: relative;
+    margin: auto;
+}
+
+.nameofpage
+{
+    color: rgb(59,59,59);
+    text-align: center;
+    font-size: 24pt;
+    margin-top: 20px;
+}
+
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines
+{
+    max-width: 1220px;
+    margin: auto;
+   
+}
+
+
+
+
+
+.navbar-1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  text-align: left;
+  background-color: rgb(248, 249, 250);
+  font-family: roboto;
+}
+
+.nav-block
+{
+    border: 1px solid yellowgreen;
+    min-width: 200px;
+   
+}
+
+.services
+{
+    width: 100%;
+    border: 2px dashed black;
+    
+}
+
+.block-contacts
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+
+  background-color: rgb(248, 249, 250);
+  border: 1px solid blue;
+  
+  
+}
+
+.block-contacts > div
+{
+    border: 0.5px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.sub-name
+{
+    font-size: 14pt;
+    color: rgb(59,59,59);
+    padding-top: 10px;
+}
+
+.sub-block
+{
+    border: 1px solid teal;
+    width: 100%;
+ display: none;
+}
+
+.sub-block > div
+{
+width: 100%;
+margin-top: -0px;
+margin-bottom: -25px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+.sub-link
+{
+    text-decoration: none;
+    font-size: 13pt;
+    color: gray;
+    
+    
+}
+
+.sub-link:hover
+{
+    text-decoration: none;
+    font-size: 13pt;
+    color: rgb(59,59,59);
+
+    
+}
+
+.sub-block > div:hover
+{
+    
+    color: rgb(59,59,59);
+    background-color: rgb(233, 233, 233);  
+    
+}
+
+
+
+.navbar-1
+{
+  border: 1px solid red;  
+  display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;;
+  width: 100%;
+}
+
+.nav1-flexblock2
+{
+    border: 3px dotted purple;  
+    display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;;
+
+  position: absolute;
+  left: 20%;
+  top: 0px;
+}
+
+.nav1-flexblock2 > div
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+#get-digits
+{
+    padding: 10px 25px;
+    height: 45px;
+    background-color: rgb(59,59,59);
+    color: whitesmoke;
+    font-size:  13pt;
+    margin-top: 10px;
+    position: absolute;
+    right: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+#get-digits:hover
+{
+    background-color: rgb(218, 84, 84);
+
+}
+
+.navbar-2  
+{
+    width: 100%;
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+  
+    font-family: roboto;
+
+    border: 1px solid red;
+}
+
+.modal-button
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(59,59,59);
+    color: whitesmoke;
+}
+
+.logo
+{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    
+}
+
+ul.hr 
+{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr > li 
+{
+    float: left;
+    position: relative;
+}
+
+ ul.hr > li > a
+ {
+     font-size: 11pt;
+     padding: 5px 15px;
+     color: gray;
+     text-decoration: none;
+
+
+ }
+
+  ul.hr > li > a:hover
+ {
+     color: rgb(59,59,59);
+
+ }
+ul 
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+.menu
+{
+    margin: auto;
+    position: relative;
+    width: 1220px;
+    border: 1px solid red;
+    z-index: 1;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    min-width: 200px;
+}
+ul.menu > li > a, .sub-submenu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: gray;;
+    background-color: rgb(248, 249, 250);
+    text-decoration: none;
+    
+}
+ul.menu > li > a:hover {
+    background-color: rgb(59,59,59);
+    color: whitesmoke;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    min-width: 250px;
+    top: 44px;
+    left: -25px;
+    background-color: white;    
+    
+    
+}
+ul.submenu > li {
+    display: block;
+    
+}
+ul.submenu > li > a, .sub-submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: gray;
+        background-color: rgb(248, 249, 250);;
+        
+    text-decoration: none;
+  
+}
+ul.submenu > li > a:hover, .sub-submenu > li > a:hover {
+    background-color: rgb(59,59,59);
+    color: whitesmoke;
+    
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.sub-submenu
+{
+    position: absolute;
+    min-width: 200px;
+    
+    left: 248px;
+    top: 0px;
+    display: none;
+}
+
+
+#sub-ul-1:hover > #sub-submenu-1, #sub-ul-2:hover > #sub-submenu-2
+{
+    display: block;
+}
+
+
+/*Главная страница, первая карусель*/
+.carusel-type1
+{
+    max-width: 1220px;
+    max-height: 500px;
+    margin:auto;
+}
+
+.main-car-1-my-changes
+{
+    font-family: roboto;
+}
+
+.main-car-1-my-changes > a, .main-car-1-my-changes > a:hover, .main-car-1-my-changes > h2 > a, .main-car-1-my-changes > h2 > a:hover
+{
+    text-decoration: none;
+}
+
+.main-car-1-my-changes > p
+{
+font-size: 12.5pt;
+position: relative;
+top: -15px;
+color: whitesmoke;
+color: rgb(245,245,245,0.8);
+}
+
+
+
+.main-car-1-my-changes > h2 > a
+{
+font-size: 20pt;
+font-weight: 500;
+letter-spacing: 1.5;;
+color: whitesmoke;
+position: relative;
+top: -15px;
+color: rgb(245,245,245,0.9);
+}
+
+.button-know-more
+{
+    font-size: 15pt;
+    color: whitesmoke;
+   
+    background-color: rgb(59,59,59);
+    border-bottom: 1.5px solid rgb(218, 84, 84);
+    padding: 10px 35px;
+    position: relative;
+    top: -15px;   
+}
+
+
+.button-know-more
+{
+    
+    color: white;   
+    background-color: rgb(245,245,245,0.4);
+    border-bottom: 1.5px solid rgb(220, 74, 74);
+    
+}
+
+.button-know-more:hover
+{
+    color: whitesmoke;
+    background-color: rgb(213, 64, 64);
+    border-bottom: 1.5px solid rgb(218, 84, 84);
+
+}
+
+
+/*----------------------------------------*/
+
+/*Крошки*/
+
+
+
+.bitem-my-changes
+{
+    text-decoration: none;
+    color: rgb(59,59,59);
+}
+
+.bitem-my-changes:hover
+{
+    text-decoration: none;
+    color: gray;
+
+}
+/*---------*/
+
+/*Предложение оставить заявку 1*/
+
+.propos1
+{
+    max-width: 1220px;
+    min-height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.propos1-content
+{
+    width: 100%;
+    background-color: rgb(248,249,250);   
+
+}
+
+.propos-content-bb1
+{
+    background-color: rgb(0,0,0,0.6);;
+    width: 100%;
+    height: 100%;
+    position: absolute;;
+    top: 0px;    
+}
+
+.propos1-text
+{
+    position: absolute;;
+    top: 0px;
+    margin-left: 50%;
+    margin-top: 200px;
+    text-align: left;
+    padding: 10px;   
+    width: 50%;
+    font-size: 13pt;
+    color: rgb(245,245,245,0.8);;
+
+            border: 1px solid green;
+
+}
+
+.calls 
+{
+
+}
+#make-call-1
+{
+    border: 1px solid red;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 220px;
+    margin-top: 5px;
+}
+
+#get-call
+{
+    padding: 10px 25px;
+    height: 45px;
+    width: 180px;
+    background-color: rgb(59,59,59);
+    color: whitesmoke;
+    font-size:  13pt;
+    margin-left: 20px;
+    position: absolute;
+    right: 20px;
+    
+    border: none;
+    text-decoration: none;
+    
+    font-size: 13pt;
+    font-weight: 600;
+    color: rgb(59,59,59);
+    background-color: rgb(220, 220, 21);
+    color: rgb(59,59,59);
+    background-color: rgb(248,249,250, 0.4);
+    color: white;
+    border-bottom: 2.5px solid rgb(220, 220, 21);
+}
+
+#get-call:hover
+{
+    background-color: rgb(220, 220, 21);
+    background-color: rgb(255, 255, 70б 0.45);
+}
+
+
+/*-----------------------------*/
+/*Сопутствующие товары*/
+
+
+
+/*-------------------*/
+/*О компании*/
+
+.about-company
+{
+    max-width: 1220px;
+    
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.about-company > h2
+{
+    color: rgb(59,59,59);
+}
+
+#adv-okn-sosn-img
+{
+margin-top: 5px;
+}
+.advantages
+{
+    width: 100%;
+     display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+
+  text-align: center;
+  margin: auto;
+}
+
+.advantage
+{
+     display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+
+    width: 47%;
+    min-width: 350px;
+    margin-top: 15px;
+    margin-left: 15px;
+border: 1px solid red;
+
+}
+
+@media (max-width: 730px)
+{
+    .advantage
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+.advantage > img
+{
+    width: 20%;
+    min-width: 75px;
+    max-width: 75px;
+    max-height: 75px;
+    max-width: 75px;
+    margin-top: 30px;
+    border: 1px solid red;
+}
+
+
+
+.advantage > p
+{
+    width: 71%;
+    margin-left: 5%;
+    color: rgb(59,59,59);
+    font-size: 12.5pt;
+    border: 1px solid red;
+}
+/*----------------------------------------*/
+
+/*Карусель с профилями*/
+
+.profiles
+{
+  
+    position: relative;
+    top: 1px;
+}
+
+.profile-slider-custom
+{
+  display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+  min-height: 450px;
+}
+
+
+.profile-slider-custom > .photo
+{
+    width: 50%;
+    background-color: rgb(248,249,250);
+}
+
+.profile-photo
+{
+    margin-left: 20%;
+    width: 50%;
+}
+.section-photo
+{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.profile-slider-custom > .description
+{
+    display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+    width: 40%;
+    background-color: whitesmoke;
+    background-color: rgb(248,249,250);;
+
+}
+
+.description-punct
+{
+    border-bottom: 1px solid rgb(59,59,59);
+}
+
+.profile-slider-custom > .description > div
+{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.profile-label
+{
+    width: 100%;
+  /*  padding-left: 30px;*/
+    padding-top: 10px;
+    text-align: center;
+    height: 60px;
+    font-size: 22pt;;
+    font-weight: 600;
+    border: 2px solid rgb(59,59,59);
+    color: rgb(248,249,250);
+    color: rgb(49,49,49);
+}
+
+.profile-usability
+{
+    text-align: center;
+    width: 100%;
+    color: rgb(59,59,59);
+    font-size: 12pt;
+}
+
+
+.slider-advheader
+{
+    font-size: 12pt;
+    color: rgb(59,59,59);
+    font-weight: 600;
+}
+
+.slider-advheader-text
+{
+    font-size: 12pt;
+    color: gray;
+}
+
+/*========================================*/
+
+/*Материалы*/
+
+.materials-1
+{
+   display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+  width: 100%;
+ height: auto;
+}
+
+.materials-1 > div
+{
+  width: 25%;
+  max-width: 375px;
+  min-width: 305px;
+ border: 1px solid rgb(59,59,59);
+ text-align: center;
+ margin: auto;
+ margin-top: 25px;
+ height: 400px;
+}
+
+.materials-1 > div >img
+{
+  box-shadow: 0px 2px 3px black;
+}
+.materials-1 > div:hover
+{
+    box-shadow: 0px 0px 6px black; 
+}
+
+.materials-1 > div > h3 > a
+{
+    text-decoration: none;
+    color: rgb(59,59,59);
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+
+.materials-1 > div > h3 > a:hover {
+    text-decoration: none;
+}
+
+.materials-1 > div > h3
+{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(59,59,59);
+}
+
+.materials-1 > div > p
+{
+   padding: 8px;
+   color: gray;
+
+}
+.materials-1 > div > a
+{
+   text-decoration: none;
+   padding: 8px 17px;
+   border: 2.5px dashed rgb(59,59,59);
+   margin: auto;
+   color: rgb(59,59,59);
+   font-size: 13pt;
+   font-weight: 600;
+}
+
+
+.materials-1 > div > a:hover
+{
+   border: 2.5px solid rgb(59,59,59);
+}
+/*==========================================*/
+/*--------Способы открывания---------*/
+
+.how-open 
+{
+  display: flex;
+  flex-direction: row; 
+  justify-content: left;
+  align-items: stretch;
+  flex-wrap:wrap;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.how-open > h3
+{
+    color: rgb(59,59,59);
+    width: 100%;
+    padding: 5px;
+}
+
+.how-open > .little > h5, .how-open > .middle > h5, .how-open > .big > h5
+{
+    text-align: center;
+    font-size: 12.5pt;
+    min-width: 150px;
+    margin-top: 5px;
+}
+
+.how-open > .little
+{
+     width: 14%;
+     margin-left: 2.2%;  
+     margin-top: 25px;
+     border: 1px solid red;  
+
+
+}
+
+.how-open > .little > img:hover, .how-open > .middle > img:hover
+{
+     box-shadow: 0px 0px 4px black;   
+}
+
+.how-open > .middle
+{
+    border: 1px solid red;
+    text-align: center;;
+    margin-left: 2.2%;
+    margin-top: 25px;
+    width: 30.2%;
+}
+
+
+.how-open > .big
+{
+    width: 25%;
+}
+
+
+/*=========================================*/
+
+/*----------Блок преимуществ (Деревянные окна)------------------*/
+
+.why-we
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+
+ /* margin-left: -30px;*/
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.why-we > h2
+{
+    color: rgb(59,59,59);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.why-we > p
+{
+  width: 90%;
+  text-align: center;
+      color: #757271;
+   font-size: 13pt;
+
+}
+
+.punct-block
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 50%;
+  min-width: 310px;
+  max-width: 500px;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+
+
+}
+@media (min-width: 300px) and (max-width: 700px)
+{
+    .why-we
+    {
+   margin-left: 0px;}
+
+   .punct-block
+   {
+       padding-left: 0px;;
+   }
+}
+/*
+.punct-block:hover
+{
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+}*/
+
+.punct-block > img
+{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: -10px;
+}
+
+.why-we-text
+{
+    width: 70%;
+}
+.why-we-text > text
+{
+   color: #757271;
+   font-size: 11.5pt;
+   width: 70%;
+   text-align: left;
+
+}
+
+.why-we-text > h3
+{    
+    text-align: center;
+    color: rgb(59,59,59);
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.hover-icon
+{
+    display: none;
+}
+
+@media (min-width: 300px) and (max-width: 900px)
+{
+    .why-we > text
+{
+  width: 100%;
+  text-align: center;
+      color: #757271;
+   font-size: 13.5pt;
+
+}
+
+.punct-block > img
+{
+    left: 0px;
+    
+}
+
+.punct-block
+{
+    margin-left: 0px;
+}
+}
+
+
+.pbwwt-modification-1 > text
+{
+    font-size: 12pt;
+}
+
+.pbwwt-modification-1 > p
+{
+    font-size: 14pt;
+    color: rgb(59,59,59);
+    font-weight: 600;
+
+}
+
+.pb-mod-1 > img
+{
+    width: 85px;
+    height: 85px;
+    margin-top: 10px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/* Меню для типов профилей*/
+
+.open-type-menu
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/*
+.open-type-menu >div
+{
+  border-left: 3px solid rgb(59,59,59);
+  padding: 4px 25px;
+  padding-top: 10px;
+  max-height: 50px;
+}
+
+.open-type-menu >div>p
+{
+  font-size: 15pt;
+  font-weight: 500;
+  color: rgb(59,59,59);
+}
+*/
+
+.how-open-head
+{
+    border-left: 3px solid rgb(59,59,59);
+    color: rgb(59,59,59);
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.how-open-head:hover
+{
+ background-color: rgb(74,74,74);
+    border-left: 2px solid rgb(74,74,74);
+    border-right: 2px solid rgb(74,74,74);
+   color: whitesmoke;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.how-open-head:focus
+{
+   
+   background-color: rgb(59,59,59);
+   color: whitesmoke;
+   font-weight: 500;
+}
+/*-----------------------------------------------------------------------------*/
+/*Colors*/
+.colors
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.colors > div
+{
+    width: 16%;
+    margin: 5px;
+    position: relative;
+    min-width: 130px;
+}
+
+.hidden-info
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 20px;
+
+    background-color: rgb(0,0,0,0);
+    color: rgb(255, 255, 255, 0);
+
+    min-width: 120px;
+    font-family: roboto;
+    font-style: italic;
+
+
+}
+
+
+.hidden-info:hover
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 20px;
+    background-color: rgb(0,0,0,0.4);
+    color: rgb(255, 255, 255, 1);;
+
+}
+
+@media (max-width: 550px)
+{
+.colors
+{
+
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.colors > div
+{
+
+    min-width: 120px;
+}
+
+.hidden-info:hover
+{
+  
+
+   
+    font-size: 10pt;
+    padding-top: 10px;
+}
+}
+/*==========*/
+/*footer*/
+
+#footer
+{
+    background-color: rgb(49,49,49);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  
+  padding: 5%;
+}
+
+.footer-basis
+{
+  padding: 10px;
+  width: 22.5%;
+  min-width: 300px;
+  color: white;
+
+
+  position: relative;
+
+}
+
+.footer-ul > .li-head
+{
+   font-size: 17pt;
+   font-weight: 600;
+   text-align: center;
+
+
+}
+
+.footer-ul
+{
+    text-align: center;
+}
+
+.footer-ul > li
+{
+   font-size: 12pt;
+   padding: 3px 10px;
+
+}
+
+.footer-ul > li > a
+{
+text-decoration: none;
+color: rgb(248,249,250);
+}
+
+.footer-ul > li > a > img, .footer-ul > li > img
+{
+width: 30px;
+height: 30px;
+margin-right: 6px;
+}
+
+#footer-logo, .footer-basis > a
+{
+  
+    left: 0px;
+    top: 0px;
+}
+#get-digits-footer
+{
+    text-decoration: none;
+   padding: 8px 17px;
+   border: 2.5px dashed rgb(213, 64, 64);
+   margin: auto;
+   color: rgb(248,249,250);;
+   font-size: 13pt;
+   font-weight: 600;
+   margin-left: 60px;
+}
+#get-digits-footer:hover
+{
+   border: 2.5px solid rgb(248,249,250);;
+}
+/*Блок с каталогами цветов*/
+
+.magazines
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.magazines > div
+{
+    width: 30%;
+    padding: 10px 20px;
+    border: 1px solid red;
+    background-color: rgb(49, 49, 49);
+}
+
+.magazines > div > a
+{
+   text-decoration: none;
+   color: rgb(248,249,250);
+   font-size: 15pt;
+   font-weight: 600;   
+}
+
+@media (min-width: 300px) and (max-width: 500px)
+{
+    .magazines > div
+{
+    width: 48%;
+    padding: 10px 10px;
+}
+
+.magazines > div > a
+{
+   
+   font-size: 13pt; 
+}
+}
+/*------------------------------------------------------------------------------*/
+.name-of-block
+{
+
+    color: rgb(59,59,59);
+    text-align: left;
+    font-size: 24pt;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: roboto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+
+}
+.name-of-block-right
+{
+    text-align: right;
+    color: rgb(59,59,59);
+    width: 100%;
+}
+
+
+.simple-a, .simple-a:hover
+{
+    text-decoration: none;
+    color: rgb(99,99,99);
+    font-weight: 600;;
+}
+/*Форма для связи*/
+
+
+.if-you-have-questions
+{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+
+  padding: 0% 15%;
+  
+}
+.if-you-have-questions > div > p
+{
+font-size: 21pt;
+font-weight: 600;
+text-align: center;;
+
+}
+#form-contact
+{
+    width: 35%;
+    min-width: 370px;
+
+}
+.form-photoblock
+{
+    width: 35%;
+    min-width: 370px;
+}
+
+
+@media (min-width: 500px) and (max-width: 1000px)
+{
+    #form-contact
+    {
+width: 75%;
+    }
+    
+}
+
+@media (min-width: 200px) and (max-width: 500px)
+{
+    #form-contact
+    {
+width: 90%;
+    }
+    .form-photoblock
+{
+    margin-bottom: 15px;;
+}
+    
+}
+
+
+.form-control-my-changes
+{
+  padding-left: 5%;
+  height: 35px;
+  border: none;
+}
+
+#textarea-for-question
+{
+    height: 100px;
+    white-space: pre-wrap;    
+}
+
+.form-control-my-changes:focus
+{
+    box-shadow: none;
+    outline:none;
+    box-shadow:0px 0px 2px black;
+}
+
+.form-control-button
+{
+   min-width: 205px;
+   max-width: 330px;
+   border: none;
+   color: whitesmoke;
+   background-color: #564946;
+   height: 40px;
+   margin-top: 20px;
+   vertical-align: middle;
+   text-align: center;
+   margin: auto;
+   margin-top: 20px;
+   background-color: rgb(213, 64, 64);
+   font-size: 14pt;
+}
+
+.form-control-button:hover
+{
+    font-size: 14pt;
+    background-color: #FF8700;
+    outline:none;
+    background-color: rgb(59, 59, 59);    
+}
+
+.form-control-button:focus
+{
+    font-size: 13pt;
+    background-color: #FF8700;
+    outline:none;
+}
+/*=======================*/
+
+
+/*Мобильное меню*/
+.mobile-menu
+{
+display: none;
+}
+
+@media (max-width: 1220px)
+{
+    .mobile-menu
+    {
+        display: block;
+    }
+
+    .navbar-1, .navbar-2
+    {
+        display: none;
+    }
+}
+
+.logo-mobile
+{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    z-index: 1;
+    
+}
+
+.card-body
+{
+    background-color: rgb(248, 249, 250);
+}
+
+.sub-block-lvl-1
+{
+   
+    
+}
+
+.card-body, .card-punct-lvl-1, .card-punct-lvl-2, .punct-lvl-2,.mobile-sub-ul
+{
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+
+}
+
+.sub-card
+{
+    border-top: 1px solid rgb(228, 229, 230);
+    border-bottom: 1px solid rgb(228, 229, 230);;
+}
+
+.card-punct-lvl-1
+{
+text-align: center;
+height: 45px;
+padding-top: 4px;
+
+}
+
+.punct-lvl-1
+{
+font-size: 15pt;
+font-weight: 600;
+color: rgb(69,69,69);
+}
+
+.card-punct-lvl-2
+{
+text-align: center;
+height: 40px;
+padding-top: 6px;
+
+}
+
+.punct-lvl-2
+{
+font-size: 12.5pt;
+font-weight: 600;
+color: rgb(59,59,59);
+}
+
+.punct-lvl-2:hover
+{
+    text-decoration: none;
+    color: rgb(59,59,59);
+}
+
+.mobile-sub-ul
+{
+    margin-top: -10px;
+    border: none;
+}
+
+.mobile-sub-ul > li 
+{
+    height: 35px;
+    padding-top: 3px;
+    border-bottom: 1px solid rgb(228, 229, 230);; 
+
+}
+
+.mobile-sub-ul > li:focus
+{
+    background-color: rgb(59, 59, 59);
+
+}
+
+.mobile-sub-ul > li > a
+{
+    font-size: 14pt;
+    font-weight: 500;
+    width: 100%;
+    color: rgb(59,59,59);
+}
+
+.mobile-sub-ul > li > a:hover
+{
+    text-decoration: none;
+}
