@@ -103,7 +103,7 @@ body
   
 }
 
-body, article{
+body, article, nav{
     font-family: roboto;
     background-color: rgb(248,249,250);
     
@@ -149,7 +149,7 @@ position: relative;
 
 .nav-block
 {
-    border: 1px solid yellowgreen;
+   /* border: 1px solid yellowgreen;*/
     min-width: 200px;
    
 }
@@ -157,7 +157,6 @@ position: relative;
 .services
 {
     width: 100%;
-    border: 2px dashed black;
     
 }
 
@@ -171,14 +170,14 @@ position: relative;
 
 
   background-color: rgb(248, 249, 250);
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   
   
 }
 
 .block-contacts > div
 {
-    border: 0.5px solid black;
+   /* border: 0.5px solid black;*/
     padding-left: 20px;
     padding-right: 20px;
     
@@ -193,7 +192,7 @@ position: relative;
 
 .sub-block
 {
-    border: 1px solid teal;
+  /*  border: 1px solid teal;*/
     width: 100%;
  display: none;
 }
@@ -237,7 +236,7 @@ padding-top: 5px;
 
 .navbar-1
 {
-  border: 1px solid red;  
+ /* border: 1px solid red;  */
   display: flex;
   flex-direction: row; 
   justify-content: left;
@@ -248,7 +247,7 @@ padding-top: 5px;
 
 .nav1-flexblock2
 {
-    border: 3px dotted purple;  
+ /*   border: 3px dotted purple;  */
     display: flex;
   flex-direction: row; 
   justify-content: left;
@@ -271,21 +270,28 @@ padding-top: 5px;
 
 #get-digits
 {
-    padding: 10px 25px;
+    padding: 7px 20px;
     height: 45px;
     background-color: rgb(59,59,59);
     color: whitesmoke;
-    font-size:  13pt;
+    font-size:  13.5pt;
     margin-top: 10px;
     position: absolute;
     right: 30px;
     border: none;
     text-decoration: none;
+
+    font-weight: 600;;
+    border: 3px dashed rgb(49,49,49);
+    background-color: rgb(248,249,250);
+    color: rgb(49,49,49);
 }
 
 #get-digits:hover
 {
-    background-color: rgb(218, 84, 84);
+    border: 3px solid rgb(49,49,49);
+    background-color: rgb(59,59,59);
+    color: rgb(248,249,250)
 
 }
 
@@ -297,7 +303,7 @@ padding-top: 5px;
   
     font-family: roboto;
 
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
 }
 
 .modal-button
@@ -324,27 +330,33 @@ ul.hr
 {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
+    
 }
 ul.hr > li 
 {
     float: left;
     position: relative;
+    
 }
 
  ul.hr > li > a
  {
      font-size: 11pt;
      padding: 5px 15px;
-     color: gray;
+     color: rgb(59,59,59);
      text-decoration: none;
-
-
  }
 
+  
+.block-contacts > div > p
+{
+    color: rgb(59,59,59);
+
+}
   ul.hr > li > a:hover
  {
      color: rgb(59,59,59);
-
+color:gray;
  }
 ul 
 {
@@ -365,14 +377,22 @@ ul:after {
     margin: auto;
     position: relative;
     width: 1220px;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     z-index: 1;
+}
+
+.navbar-2 > .menu > li > a
+{
+    background-color: rgb(59,59,59);
+    color: rgb(248,249,250);
 }
 
 ul.menu > li {
     float: left;
     position: relative;
     min-width: 200px;
+
+    
 }
 ul.menu > li > a, .sub-submenu > li > a {
     display: block;
@@ -385,6 +405,9 @@ ul.menu > li > a, .sub-submenu > li > a {
 ul.menu > li > a:hover {
     background-color: rgb(59,59,59);
     color: whitesmoke;
+
+    background-color: rgb(248,249,250);
+    color: rgb(49,49,49);
 }
 ul.submenu {
     display: none;
@@ -392,7 +415,9 @@ ul.submenu {
     min-width: 250px;
     top: 44px;
     left: -25px;
-    background-color: white;    
+    background-color: white;   
+    
+    
     
     
 }
@@ -407,11 +432,17 @@ ul.submenu > li > a, .sub-submenu > li > a {
         background-color: rgb(248, 249, 250);;
         
     text-decoration: none;
+
+    background-color: rgb(59,59,59);
+        color: rgb(248,249,250);
   
 }
 ul.submenu > li > a:hover, .sub-submenu > li > a:hover {
     background-color: rgb(59,59,59);
     color: whitesmoke;
+
+     background-color: rgb(248,249,250);
+    color: rgb(49,49,49);
     
 }
 
@@ -565,17 +596,26 @@ color: rgb(245,245,245,0.9);
     font-size: 13pt;
     color: rgb(245,245,245,0.8);;
 
-            border: 1px solid green;
-
 }
 
-.calls 
+@media (min-width: 315px) and (max-width: 600px)
 {
+    .propos1-text
+{
+    padding: 10px 0px;
+    margin-left: 5%;
+margin-top: 170px;
+    width: 90%;
+    font-size: 13pt;
+    color: rgb(245,245,245,0.8);;
 
 }
+}
+
+
 #make-call-1
 {
-    border: 1px solid red;
+   
     height: 40px;
     width: 40px;
     position: absolute;
@@ -606,12 +646,13 @@ color: rgb(245,245,245,0.9);
     background-color: rgb(248,249,250, 0.4);
     color: white;
     border-bottom: 2.5px solid rgb(220, 220, 21);
+    border-bottom: 2.5px solid rgb(213, 64, 64);
 }
 
 #get-call:hover
 {
     background-color: rgb(220, 220, 21);
-    background-color: rgb(255, 255, 70б 0.45);
+    background-color: rgb(49, 49, 49, 0.45);
 }
 
 
@@ -727,12 +768,12 @@ border: 1px solid red;
     width: 50%;
     background-color: rgb(248,249,250);
 }
-
 .profile-photo
 {
     margin-left: 20%;
     width: 50%;
 }
+
 .section-photo
 {
     width: 20%;
@@ -750,6 +791,37 @@ border: 1px solid red;
     background-color: whitesmoke;
     background-color: rgb(248,249,250);;
 
+}
+
+@media (min-width: 315px) and (max-width: 550px)
+{
+  .profile-slider-custom > .photo
+{
+    width: 90%;
+        margin: auto;
+        margin-bottom: 10px;;
+    
+}
+
+  .section-photo
+{
+    width: 30%;
+
+   
+}
+.profile-photo
+{
+    width: 60%;
+    margin: auto;;
+
+}
+
+.profile-slider-custom > .description
+{
+    
+    width: 90%;
+    margin: auto;
+}
 }
 
 .description-punct
@@ -913,9 +985,50 @@ border: 1px solid red;
      width: 14%;
      margin-left: 2.2%;  
      margin-top: 25px;
-     border: 1px solid red;  
+     
+     min-width: 150px;
+    
+     
+}
 
+.how-open > .middle
+{
+ 
+    text-align: center;;
+    margin-left: 2.2%;
+    margin-top: 25px;
+    width: 30.2%;
+    
+}
 
+@media (min-width: 315px) and (max-width: 550px)
+{
+     .how-open > .middle
+    {
+     width: 90%;
+     
+     margin: auto;   
+     margin-top: 10px;;
+    }
+}
+
+.card-body-mod
+{
+    text-align: center;;
+}
+
+@media (min-width: 300px) and (max-width: 900px)
+{
+    .how-open > .little > h5
+    {
+        font-size: 11pt;;
+    }
+   
+
+    .how-open > .little 
+    {
+        margin: auto;;
+    }
 }
 
 .how-open > .little > img:hover, .how-open > .middle > img:hover
@@ -923,14 +1036,7 @@ border: 1px solid red;
      box-shadow: 0px 0px 4px black;   
 }
 
-.how-open > .middle
-{
-    border: 1px solid red;
-    text-align: center;;
-    margin-left: 2.2%;
-    margin-top: 25px;
-    width: 30.2%;
-}
+
 
 
 .how-open > .big
@@ -1131,6 +1237,50 @@ border: 1px solid red;
     font-weight: 500;
     padding: 10px 25px;
     text-decoration: none;
+}
+#how-open-head-first
+{
+border-left: none;
+}
+
+@media (min-width: 500px) and (max-width: 710px)
+{
+    .how-open-head
+{
+    border-left: 2px solid rgb(59,59,59);
+    font-size: 12.5pt;
+    padding: 10px 10px;
+}
+
+}
+
+@media (min-width: 315px) and (max-width: 499px)
+{
+
+    .open-type-menu
+    {
+        display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap; 
+    }
+
+    .how-open-head
+    {
+        min-width: 155px;
+        width: 48%;
+        max-width: 240px;
+        margin: auto;
+        margin-bottom: 15px;
+        border: 3px dashed rgb(59,59,59);
+        text-align: center;
+    }
+
+    #how-open-head-first
+{
+border-left: 3px dashed rgb(59,59,59);
+}
 }
 
 .how-open-head:hover
@@ -1338,8 +1488,8 @@ margin-right: 6px;
 {
     width: 30%;
     padding: 10px 20px;
-    border: 1px solid red;
     background-color: rgb(49, 49, 49);
+    border: 2px solid rgb(248,249,250);
 }
 
 .magazines > div > a
@@ -1376,6 +1526,7 @@ margin-right: 6px;
     font-family: roboto;
     margin-bottom: 35px;
     margin-top: 35px;
+    padding-left: 20px;
 
 }
 .name-of-block-right
@@ -1383,6 +1534,8 @@ margin-right: 6px;
     text-align: right;
     color: rgb(59,59,59);
     width: 100%;
+    padding-right: 20px;
+  
 }
 
 
@@ -1508,6 +1661,7 @@ width: 90%;
 .mobile-menu
 {
 display: none;
+background-color: rgb(248,249,250);
 }
 
 @media (max-width: 1220px)
@@ -1562,7 +1716,7 @@ display: none;
 {
 text-align: center;
 height: 45px;
-padding-top: 4px;
+padding-top: 7px;
 
 }
 
@@ -1625,4 +1779,43 @@ color: rgb(59,59,59);
 .mobile-sub-ul > li > a:hover
 {
     text-decoration: none;
+}
+
+.mobile-header-contacts
+{
+    background-color: rgb(248,249,250);
+    text-align: center;
+}
+
+.mobile-header-contacts > text
+{
+    font-size: 12pt;
+    padding-top: 10px;;
+}
+
+.mobile-header-contacts > a
+{
+    text-decoration: none;
+    color: rgb(49,49,49);
+    padding: 5px 5px;
+    font-weight: 600;
+}
+
+.mobile-header-contacts > a > img, .mobile-header-contacts > img
+{
+   width: 25px;
+   height: 25px;
+
+
+}
+
+.mobile-header-contacts > a:hover
+{
+    text-decoration: none;
+    color: rgb(49,49,49);
+}
+
+.profile-collapse-content-block
+{
+    margin-top: 5px;;
 }

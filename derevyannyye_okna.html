@@ -104,12 +104,12 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 <!--Все что менбше 1220px - мобильная оптимизация-->
 
 <div class = "navbar-1">
-  <div style = "height: 125px; min-width: 20%; border: 2px dashed orange;">  
+  <div style = "height: 125px; min-width: 20%;">  
     <a href=#><img class = "logo" src = "favicon-jpg.JPG"></a>
   </div>
 
   <div class = "nav1-flexblock2" style = "min-width: 80%;">
-    <div style = "height: 50px; min-width: 100%; border: 1px solid yellow; "> 
+    <div style = "height: 50px; min-width: 100%;  "> 
       <div class = "services">
         <ul class = "hr">
           <li><a href="installation.html">Установка</a>
@@ -120,20 +120,20 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
       </div>
     </div>
 
-    <div style = "height: 75px; border: 2px solid seagreen; width: 100%;  ">  
+    <div style = "height: 75px; width: 100%;">  
       <div class = "block-contacts">  
         <div id = "contact-email">
-          <p>Наша почта: <br><img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">alex-pale@mail.ru</span></p>
+          <p>Наша почта: <br><img src = "ulicons/mailpost.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">spb@vithouse.ru</span></p>
         </div>
         <div id = "contact-phone">
-          <p>Москва <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+          <p>Москва <br> <img src = "ulicons/navphone.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+7 (812) 640 73 21</span></p>
         </div>
         <div id = "contact-phone">
-          <p>Санкт-Петербург <br> <img src = "ulicons/phone-or.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 2px;">+800 777 77 77</span></p>
+          <p>Санкт-Петербург <br> <img src = "ulicons/navphone.png" height = "20px" width = "20px"><span style = "position: relative; top: 0px; left: 4px;">+7 (911) 914 08 78</span></p>
         </div>
         <div id = "time-of-work"><p>Время работы: <br>ежедневно, 9.00 - 18.00</p>
         </div>
-         <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id = "get-digits" href = "#">Заказать расчет</a>
+         <a  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id = "get-digits" href = "#" style = "top: 30px;">Заказать расчет</a>
       </div>
     </div>
   </div>
@@ -1106,11 +1106,11 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
         <div id="accordion-1" >
  
               <div class="card">
-    <div class="card-punct-lvl-1" id="headingOne-1-5">     
-        <a class="punct-lvl-1" data-toggle="collapse" data-target="#collapseOne-1-6" aria-expanded="true" aria-controls="collapseOne">О Vithouse</a>    
+    <div class="card-punct-lvl-1" id="headingOne-1-7">     
+        <a class="punct-lvl-1" data-toggle="collapse" data-target="#collapseOne-1-7" aria-expanded="true" aria-controls="collapseOne">О Vithouse</a>    
     </div>
 
-    <div id="collapseOne-1-6" class="collapse" aria-labelledby="headingOne-1-6" data-parent="#accordion-1-6">
+    <div id="collapseOne-1-7" class="collapse" aria-labelledby="headingOne-1-7" data-parent="#accordion-1-7">
       <div class="card-body">
 <!-------------------------------------------------->
 <!-------------------------------------------------->
@@ -1155,13 +1155,34 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </div>
        </li>
         <!--=================================================================-->
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
     </ul>
   </div>
 </nav>
 
+<!--Выпадающая хрень с контактами-->
+
+     
+  <a class="" style = "position: absolute; top: 35px; right: 90px;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <img src = "ulicons/contacts.png" width = "40px" height = "40px">
+  </a>
+  
+
+<div class="collapse" id="collapseExample" style = "z-index: 2;">
+  <div class="mobile-header-contacts">
+
+
+      <text>Время работы консультантов: 9.00-24.00</text><br><br>
+      <a href = "tel:+7 (812) 640 73 21"><img src = "ulicons/blackphone.png"></a><a href = "tel:+7 (812) 640 73 21">+7 (812) 640 73 21</a><br>
+      <a href = "tel:+7 (911) 914 08 78"><img src = "ulicons/blackphone.png"></a><a href = "tel:+7 (911) 914 08 78">+7 (911) 914 08 78</a><br>
+      <a href = "tel:+7 (921) 635 36 90"><img src = "ulicons/blackphone.png"></a><a href = "tel:+7 (921) 635 36 90">+7 (921) 635 36 90</a><br>
+      <a><img src = "ulicons/maill.png" href = "#"></a><a href = "#">spb@vithouse.ru</a><br>
+
+
+    
+  </div>
+</div>
+
+<!--------------------------------->
 
 </div>
 <!--=========================================================================================================================================================================-->
@@ -1179,13 +1200,13 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
 <div class = "propos1">
 <div class = "propos1-content">
-    <img src = "images/Konsultatsiya.jpg" height = "400px" style = "min-height: 400px;" width = "100%;">
+    <img src = "images/consalt.jpg" height = "400px" style = "min-height: 400px;" width = "100%;">
     <div class = "propos-content-bb1"></div>
     <div class = "propos1-text">
     <p>Наши специалисты всегда готовы помочь. Они помогут выбрать вариант, соответсвующи именно вашим требованиям, ответят на все вопросы и окажут полную консультацию по интересующей вас продукции </p>
 
     
-    <a href = "tel:+375297797593"><img src = "images/ulicons/icons8-встряхните-телефон-50.png" id = "make-call-1">  </a>
+    <a href = "tel:+375297797593"><img src = "ulicons/callphone.png" id = "make-call-1">  </a>
     <a  data-toggle="modal"  data-target="#exampleModal-2" data-whatever="@mdo"  id = "get-call" href = "#">Заказать звонок</a>
     
     </div>
@@ -1445,12 +1466,10 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </div>-->
 <!-------------------------------------->
 
-<div class = "open-type-menu">
-
-
-  <p>
+<div class = "open-type-menu" id = "accordion">
+ 
    
-  <a class="how-open-head" style = "border-left: none;" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+  <a class="how-open-head" id = "how-open-head-first" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
     Optima
   </a>
  
@@ -1466,8 +1485,8 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     Elegant
   </a>
  
-</p>
-<div class="collapse.show w-100" id="collapseExample1">
+
+<div class="collapse.show w-100 profile-collapse-content-block" id="collapseExample1" data-parent="#accordion" profile-collapse-content-block>
   <div class="w-100 profile-slider-custom" >
         <div class = "photo"><img src = "profiles/optima.jpg" class = "profile-photo"><img src = "profiles/ptima-section.jpg" class = "section-photo"></div>
       
@@ -1508,7 +1527,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
        </div>  
       </div>   
 </div>
-<div class="collapse w-100" id="collapseExample2">
+<div class="collapse w-100 profile-collapse-content-block" id="collapseExample2" data-parent="#accordion">
  <div class="w-100 profile-slider-custom" >
         <div class = "photo"><img src = "profiles/Rustic.jpg" class = "profile-photo"><img src = "profiles/ptima-section.jpg" class = "section-photo"></div>
       
@@ -1549,7 +1568,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
        </div>  
       </div>   
 </div>
-<div class="collapse w-100" id="collapseExample3">
+<div class="collapse w-100 profile-collapse-content-block" id="collapseExample3" data-parent="#accordion" >
  <div class="w-100 profile-slider-custom" >
         <div class = "photo"><img src = "profiles/Classic.jpg" class = "profile-photo"><img src = "profiles/classic-section.jpg" class = "section-photo"></div>
       
@@ -1590,7 +1609,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
        </div>  
       </div>         
 </div>
-<div class="collapse w-100" id="collapseExample4">
+<div class="collapse w-100 profile-collapse-content-block" id="collapseExample4" data-parent="#accordion">
  <div class="w-100 profile-slider-custom" >
         <div class = "photo"><img src = "profiles/Elegant.jpg" class = "profile-photo"><img src = "profiles/elegant-section.jpg" class = "section-photo"></div>
       
@@ -1828,12 +1847,12 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
 -->
  <h2 class = "name-of-block name-of-block-right"><a name = "opening"><span>Способы открывания</span></a></h2>
-<div class = "open-type-menu">
+<div class = "open-type-menu" id = "accordion1">
 
 
-  <p>
+  
    
-  <a class="how-open-head" style = "border-left: none;" data-toggle="collapse" href="#collapseExample1-2" role="button" aria-expanded="false" aria-controls="collapseExample1-2">
+  <a class="how-open-head " id = "how-open-head-first" data-toggle="collapse" href="#collapseExample1-2" role="button" aria-expanded="false" aria-controls="collapseExample1-2">
     Стандартные
   </a>
  
@@ -1841,16 +1860,16 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     Среднеподвесные
   </a>
  
-  <a class="how-open-head" data-toggle="collapse" href="#collapseExample3-2" role="button" aria-expanded="false" aria-controls="collapseExample3-2">
+  <a class="how-open-head " data-toggle="collapse" href="#collapseExample3-2" role="button" aria-expanded="false" aria-controls="collapseExample3-2">
     Раздвижные
   </a>
  
-  <a class="how-open-head" data-toggle="collapse" href="#collapseExample4-2" role="button" aria-expanded="false" aria-controls="collapseExample4-2">
+  <a class="how-open-head " data-toggle="collapse" href="#collapseExample4-2" role="button" aria-expanded="false" aria-controls="collapseExample4-2">
     Складные
   </a>
  
-</p>
-<div class="collapse.show w-100" id="collapseExample1-2">
+
+<div class="collapse.show w-100 " id="collapseExample1-2" data-parent="#accordion1">
   <div class="card card-body">
    
 <div class = "how-open" id = "first-how-open">
@@ -1884,8 +1903,8 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     
   </div>
 </div>
-<div class="collapse w-100" id="collapseExample2-2">
-  <div class="card card-body ">
+<div class="collapse w-100" id="collapseExample2-2" data-parent="#accordion1">
+  <div class="card card-body card-body-mod">
    
     <div class = "how-open" id = "second-how-open" >
   <h3>Среднеподвесные</h3>
@@ -1901,7 +1920,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
   </div>
 </div>
-<div class="collapse w-100" id="collapseExample3-2">
+<div class="collapse w-100" id="collapseExample3-2" data-parent="#accordion1">
   <div class="card card-body">
     
 <div class = "how-open" id = "third-how-open" >
@@ -1949,7 +1968,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
   </div>
 </div></div>
-<div class="collapse w-100" id="collapseExample4-2">
+<div class="collapse w-100" id="collapseExample4-2" data-parent="#accordion1">
   <div class="card card-body">
 
   <div class = "how-open" id = "fourth-how-open" >
@@ -2015,6 +2034,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </div>
 <!--Блок 5: Предложение оставить заявку-->
  <h2 class = "name-of-block"><a name = "colors"><span>Стандартные цвета окраски</span></a></h2>
+ 
   <div class = "colors">
    
     <div><img src = "images/colors/d01.jpg"><div class = "hidden-info">Бесцветный лак</div></div>
@@ -2041,8 +2061,8 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </div>
 
   <div class = "magazines">
-    <div><a href = "#">Каталог цветов RAL</a></div>
-    <div><a href = "#">Каталог цветов NSC</a></div>
+    <div><a href = "https://ral.ru/classic_colours" target = "blank">Каталог цветов RAL</a></div>
+    <div><a href = "https://nebo.by/material/color/ncs.php" target = "blank">Каталог цветов NSC</a></div>
   </div>
 <br><br>
 
