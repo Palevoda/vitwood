@@ -73,6 +73,35 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Ваше имя</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Номер телефона</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" style = "border: none; background-color: rgb(218, 84, 84);">Отправить запрос</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--
 <div class = "navbar-1">
 <div class = "logo"><a href=#><img class = "logo" src = "favicon-jpg.JPG"></a></div>
@@ -1189,13 +1218,13 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
 <article>
 <!--Блок1: позиция страницы-->
-    <div aria-label="breadcrumb" style = "background-color: rgb(248,249,250);">
+    <div aria-label="breadcrumb" class = "tail" style = "background-color: rgb(248,249,250);">
   <ol class="breadcrumb" style = "max-width: 1220px; margin: auto;background-color: rgb(248,249,250);">
     <li class="breadcrumb-item"><a class = "bitem-my-changes" href="index.html">Vithouse</a></li>
     <li class="breadcrumb-item active" aria-current="page">Деревянные окна</li>    
   </ol>
 </div>
-
+<!--------------------------------->
 <!--Блок 2: Предложение оставить заявку-->
 
 <div class = "propos1">
@@ -1203,7 +1232,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     <img src = "images/consalt.jpg" height = "400px" style = "min-height: 400px;" width = "100%;">
     <div class = "propos-content-bb1"></div>
     <div class = "propos1-text">
-    <p>Наши специалисты всегда готовы помочь. Они помогут выбрать вариант, соответсвующи именно вашим требованиям, ответят на все вопросы и окажут полную консультацию по интересующей вас продукции </p>
+    <p>Цена на окна зависит от многих параметров, часть из которых определяется заказчиком (размер, цвет, фурнитура и т.д.). Ввиду этого, каждому клиенту мы рассчитываем цену индивидуально, учитывая все требования и пожелания. Такой метод позволяет сделать тот самый "Индивидуальный подход" и дать объективную, не шаблонную цену</p>
 
     
     <a href = "tel:+375297797593"><img src = "ulicons/callphone.png" id = "make-call-1">  </a>
@@ -1225,7 +1254,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 <div class = "why-we ">
 
 <div class = "punct-block pb-mod-1"  id = "pb-2">
-    <img src = "images/advantages/weather.png"  id = "ai-2" alt = "3д панели для стен москва">
+    <img src = "images/advantages/weather.png"  id = "ai-2" >
     <div class = "why-we-text pbwwt-modification-1">
 <p>Устойчивость к погодным условиям</p>
   <text>Наши окна не теряют свою внешнюю привлекательность под воздействием солнечных лучей, ливней, морозов и прочих климатических воздействий</text>
@@ -1233,7 +1262,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </div>
 
 <div class = "punct-block pb-mod-1"  id = "pb-2">
-    <img src = "images/advantages/temperature.png"  id = "ai-2" alt = "3д панели для стен москва">
+    <img src = "images/advantages/temperature.png"  id = "ai-2" >
     <div class = "why-we-text pbwwt-modification-1">
 <p>Устойчивость к перепадам температу</p>
   <text>Наши окна проектировались для эксплуатации в разных климатических условий. Именно поэтому они устойчивы как к низким отрицательным, так и к высоким положительным температурам</text>
@@ -1241,7 +1270,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </div>
 
 <div class = "punct-block pb-mod-1" id = "pb-1">
-  <img src = "images/advantages/forever.png" id = "ai-1" alt = "зд панели для стен купить">
+  <img src = "images/advantages/forever.png" id = "ai-1" >
   <div class = "why-we-text pbwwt-modification-1">
     <p>Долговечность</p>
   <text>Первые 20 лет эксплуатации наши окна не нуждаются в любого рода техническом вмешательстве. После, при своевременном технческом обслуживании, срок службы наших окон составляет 50 лет и более</text> 
@@ -1266,8 +1295,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 </div>
 
 <div class = "punct-block pb-mod-1"  id = "pb-4">
-  <img src = "images/advantages/certificate.png"   class = "hover-icon" id = "hi-4">
-    <img src = "images/advantages/certificate.png" id = "ai-4">
+  <img src = "images/advantages/certificate.png"   id = "hi-4">    
     <div class = "why-we-text pbwwt-modification-1">
   <p>Сертификация</p>
   <text>Вся наша продукция имеет Российские и Европеские сертификаты качества, которые мы предоставляем всем наши мклиентам по их требованию</text>
@@ -2084,9 +2112,9 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
  
 
 <div class="collapse.show w-100 profile-collapse-content-block" id="collapseExample1p" data-parent="#accordion2" profile-collapse-content-block>
-  
+  <h3>Сосна</h3>
         <div class = "w-100 colors">
-   
+    
     <div><img src = "images/colors/pine/s01.jpg"><div class = "hidden-info">Бесцветный лак</div></div>
     <div><img src = "images/colors/pine/s02.jpg"><div class = "hidden-info">Клён</div></div>
     <div><img src = "images/colors/pine/s03.jpg"><div class = "hidden-info">Бук</div></div>
@@ -2111,7 +2139,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </div>
 </div>
 <div class="collapse w-100 profile-collapse-content-block" id="collapseExample2p" data-parent="#accordion2">
-
+<h3>Дуб</h3>
         
           <div class = "w-100 colors">
    
@@ -2139,6 +2167,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </div>
 </div>
 <div class="collapse w-100 profile-collapse-content-block" id="collapseExample3p" data-parent="#accordion2" >
+  <h3>Лиственница</h3>
         <div class = " w-100 colors">
    
     <div><img src = "images/colors/listvennitsa/l01.jpg"><div class = "hidden-info">Бесцветный лак</div></div>
@@ -2165,7 +2194,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </div>
 </div>
 <div class="collapse w-100 profile-collapse-content-block" id="collapseExample4p" data-parent="#accordion2">
-
+<h3>Красное дерево</h3>
         <div class = "w-100 colors">
    
     <div><img src = "images/colors/redtree/m01.jpg"><div class = "hidden-info">Бесцветный лак</div></div>
@@ -2309,10 +2338,6 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 
 </footer>
 
-
-
-
-</script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
        <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
