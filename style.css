@@ -1194,6 +1194,7 @@ border-left: none;
         padding: 10px 0px;
         border: 3px dashed rgb(59,59,59);
         border-left: 3px dashed rgb(59,59,59);
+        
     }
 
     #how-open-head-first
@@ -1202,7 +1203,7 @@ border-left: 3px dashed rgb(59,59,59);
 }
 }
 
-.how-open-head:hover
+.how-open-head:hover,  #redtree-button:hover
 {
  background-color: rgb(74,74,74);
     border: 2px solid rgb(74,74,74);
@@ -1212,7 +1213,7 @@ border-left: 3px dashed rgb(59,59,59);
    text-decoration: none;
 }
 
-.how-open-head:focus
+.how-open-head:focus,  #redtree-button:focus
 {
    
    background-color: rgb(59,59,59);
