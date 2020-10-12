@@ -510,7 +510,7 @@ color: rgb(245,245,245,0.9);
 {
     padding: 10px 0px;
     margin-left: 5%;
-margin-top: 135px;
+margin-top: 120px;
     width: 90%;
     font-size: 13pt;
     color: rgb(245,245,245,0.8);;
@@ -565,6 +565,8 @@ margin-top: 135px;
     background-color: rgb(220, 220, 21);
     background-color: rgb(49, 49, 49, 0.45);
 }
+
+
 
 
 /*-----------------------------*/
@@ -1197,8 +1199,8 @@ border-left: 3px dashed rgb(59,59,59);
 .how-open-head:hover
 {
  background-color: rgb(74,74,74);
-    border-left: 2px solid rgb(74,74,74);
-    border-right: 2px solid rgb(74,74,74);
+    border: 2px solid rgb(74,74,74);
+ 
    color: whitesmoke;
    font-weight: 500;
    text-decoration: none;
@@ -1208,6 +1210,8 @@ border-left: 3px dashed rgb(59,59,59);
 {
    
    background-color: rgb(59,59,59);
+       border: 2px solid rgb(74,74,74);
+
    color: whitesmoke;
    font-weight: 500;
 }
