@@ -1192,6 +1192,8 @@ border-left: none;
     #redtree-button
     {
         padding: 10px 0px;
+        border: 3px dashed rgb(59,59,59);
+        border-left: 3px dashed rgb(59,59,59);
     }
 
     #how-open-head-first
