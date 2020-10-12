@@ -1142,7 +1142,7 @@ border: 1px solid red;
 }
 */
 
-.how-open-head
+.how-open-head, #redtree-button
 {
     border-left: 3px solid rgb(59,59,59);
     color: rgb(59,59,59);
@@ -1188,6 +1188,10 @@ border-left: none;
         margin-bottom: 15px;
         border: 3px dashed rgb(59,59,59);
         text-align: center;
+    }
+    #redtree-button
+    {
+        padding: 10px 0px;
     }
 
     #how-open-head-first
@@ -1420,7 +1424,8 @@ margin-right: 6px;
     .magazines > div
 {
     width: 48%;
-    padding: 10px 10px;
+    padding: 5px 10px;
+    padding-bottom: 5px;
 }
 
 .magazines > div > a
