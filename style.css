@@ -35,7 +35,11 @@ position: relative;
     margin: auto;
    
 }
-
+.href-call, .href-call:hover
+{
+    text-decoration: none;
+    color: rgb(49,49,49);
+}
 
 
 
@@ -208,7 +212,8 @@ padding-top: 5px;
     text-align: center;
   
     font-family: roboto;
-
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
   /*  border: 1px solid red;*/
 }
 
@@ -480,15 +485,24 @@ color: rgb(245,245,245,0.9);
     background-color: rgb(248,249,250);   
 
 }
-/*
+
+.propos1-content > img
+{
+    min-height: 400px;
+    height: 400px;
+}
+
 @media (min-width: 300px) and (max-width: 600px)
 {
-.propos1-content 
+.propos1, .propos1-content, .propos1-content > img
 {
-max-height: 200px;
+min-height: 300px;
+max-height: 300px;
+
 }
+
 }
-*/
+
 .propos-content-bb1
 {
     background-color: rgb(0,0,0,0.6);;
@@ -511,32 +525,49 @@ max-height: 200px;
     color: rgb(245,245,245,0.8);;
 }
 
+@media (min-width: 300px) and (max-width: 400px)
+{
+    .propos1-text
+{
+    font-size: 12.5pt;
+    margin-top: 15px;;
+    padding: 10px 0px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+    color: rgb(245,245,245,0.8);;
+}
+}
 
-@media (min-width: 315px) and (max-width: 600px)
+@media (min-width: 400px) and (max-width: 500px)
 {
     .propos1-text
 {
     padding: 10px 0px;
     margin-left: 5%;
-margin-top: 120px;
+margin-top: 25px;
     width: 90%;
     font-size: 13pt;
+    text-align: center;
     color: rgb(245,245,245,0.8);;
+}
+
 
 }
 
-.tail
+@media (min-width: 300px) and (max-width: 800px)
+{
+    .tail
 {
     display: none;
 }
 }
-
-
+ 
 #make-call-1
 {
    
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     position: absolute;
     right: 220px;
     margin-top: 5px;
@@ -544,15 +575,16 @@ margin-top: 120px;
 
 #get-call
 {
-    padding: 10px 25px;
-    height: 45px;
+    padding: 7px 25px;
+    height: 40px;
     width: 180px;
     background-color: rgb(59,59,59);
     color: whitesmoke;
     font-size:  13pt;
     margin-left: 20px;
     position: absolute;
-    right: 20px;
+    right: 15px;
+    
     
     border: none;
     text-decoration: none;
