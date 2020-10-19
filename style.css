@@ -660,8 +660,8 @@ margin-top: 175px;
 #get-call:active, #getcall:focus
 {
     box-shadow: 0px 0px 0px black;;
-    border: none;
-    
+    border: 0px solid black;
+
 }
 
 
