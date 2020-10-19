@@ -492,7 +492,7 @@ color: rgb(245,245,245,0.9);
     height: 400px;
 }
 
-@media (min-width: 300px) and (max-width: 600px)
+@media (min-width: 300px) and (max-width: 700px)
 {
 .propos1, .propos1-content, .propos1-content > img
 {
@@ -551,11 +551,62 @@ margin-top: 25px;
     text-align: center;
     color: rgb(245,245,245,0.8);;
 }
-
-
 }
 
-@media (min-width: 300px) and (max-width: 800px)
+@media (min-width: 500px) and (max-width: 600px)
+{
+    .propos1-text
+{
+    padding: 10px 0px;
+    margin-left: 5%;
+margin-top: 55px;
+    width: 90%;
+    font-size: 13pt;
+    text-align: center;
+    color: rgb(245,245,245,0.8);;
+}
+}
+@media (min-width: 600px) and (max-width: 700px)
+{
+    .propos1-text
+{
+    padding: 10px 0px;
+    margin-left: 5%;
+margin-top: 75px;
+    width: 90%;
+    font-size: 13pt;
+    text-align: center;
+    color: rgb(245,245,245,0.8);;
+}
+}
+@media (min-width: 700px) and (max-width: 800px)
+{
+    .propos1-text
+{
+    padding: 10px 0px;
+    margin-left: 25%;
+margin-top: 155px;
+    width: 70%;
+    font-size: 13pt;
+    text-align: center;
+    color: rgb(245,245,245,0.8);;
+}
+}
+@media (min-width: 800px) and (max-width: 900px)
+{
+    .propos1-text
+{
+    padding: 10px 0px;
+    margin-left: 25%;
+margin-top: 175px;
+    width: 70%;
+    font-size: 13pt;
+    text-align: center;
+    color: rgb(245,245,245,0.8);;
+}
+}
+
+@media (min-width: 300px) and (max-width: 900px)
 {
     .tail
 {
