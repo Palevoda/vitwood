@@ -796,8 +796,38 @@ border: 1px solid red;
     background-color: rgb(248,249,250);;
 
 }
+@media (min-width: 315px) and (max-width: 450px)
+{
+  .profile-slider-custom > .photo
+{
+    width: 95%;
+        margin: auto;
+        margin-bottom: 10px;;
+    
+}
 
-@media (min-width: 315px) and (max-width: 700px)
+  .section-photo
+{
+    width: 27.5%;
+
+   
+}
+.profile-photo
+{
+    width: 62.5%;
+    margin: auto;;
+
+}
+
+.profile-slider-custom > .description
+{
+    
+    width: 95%;
+    margin: auto;
+}
+}
+
+@media (min-width: 450px) and (max-width: 700px)
 {
   .profile-slider-custom > .photo
 {
@@ -1295,7 +1325,7 @@ border-left: none;
 
 @media (min-width: 500px) and (max-width: 710px)
 {
-    .how-open-head
+    .how-open-head, .how-open-door
 {
     border-left: 2px solid rgb(59,59,59);
     font-size: 12.5pt;
@@ -1316,7 +1346,7 @@ border-left: none;
   flex-wrap: wrap; 
     }
 
-    .how-open-head
+    .how-open-head, .how-open-door
     {
         min-width: 155px;
         width: 48%;
