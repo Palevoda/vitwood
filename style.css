@@ -801,36 +801,6 @@ border: 1px solid red;
 {
   .profile-slider-custom > .photo
 {
-    width: 90%;
-        margin: auto;
-        margin-bottom: 10px;;
-    
-}
-
-  .section-photo
-{
-    width: 30%;
-
-   
-}
-.profile-photo
-{
-    width: 60%;
-    margin: auto;;
-
-}
-
-.profile-slider-custom > .description
-{
-    
-    width: 90%;
-    margin: auto;
-}
-}
-@media (min-width: 700px) and (max-width: 950px)
-{
-  .profile-slider-custom > .photo
-{
     width: 72%;
         margin: auto;
         margin-bottom: 10px;;
@@ -854,6 +824,36 @@ border: 1px solid red;
 {
     
     width: 72%;
+    margin: auto;
+}
+}
+@media (min-width: 700px) and (max-width: 950px)
+{
+  .profile-slider-custom > .photo
+{
+    width: 64.8%;
+        margin: auto;
+        margin-bottom: 10px;;
+    
+}
+
+  .section-photo
+{
+    width: 21.6%;
+
+   
+}
+.profile-photo
+{
+    width: 43.2%;
+    margin: auto;;
+
+}
+
+.profile-slider-custom > .description
+{
+    
+    width: 64.8%;
     margin: auto;
 }
 }
