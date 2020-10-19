@@ -1280,6 +1280,13 @@ border: 1px solid red;
     font-weight: 500;
     padding: 10px 25px;
     text-decoration: none;
+    
+}
+.how-open-door
+{
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    
 }
 #how-open-head-first
 {
@@ -1336,10 +1343,10 @@ border-left: 3px dashed rgb(59,59,59);
 .how-open-head:hover,  #redtree-button:hover
 {
  background-color: rgb(74,74,74);
-    border: 2px solid rgb(74,74,74);
+    
  
    color: whitesmoke;
-   font-weight: 500;
+  
    text-decoration: none;
 }
 
@@ -1347,10 +1354,10 @@ border-left: 3px dashed rgb(59,59,59);
 {
    
    background-color: rgb(59,59,59);
-       border: 2px solid rgb(74,74,74);
+      
 
    color: whitesmoke;
-   font-weight: 500;
+ 
 }
 /*-----------------------------------------------------------------------------*/
 /*Colors*/
