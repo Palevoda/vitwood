@@ -804,6 +804,11 @@ border: 1px solid red;
 }
 @media (min-width: 315px) and (max-width: 450px)
 {
+    .profile-slider-custom
+    {
+        margin: auto;
+        margin-top: 20px;;
+    }
   .profile-slider-custom > .photo
 {
     width: 95%;
@@ -835,6 +840,11 @@ border: 1px solid red;
 
 @media (min-width: 450px) and (max-width: 700px)
 {
+    .profile-slider-custom
+    {
+        margin: auto;
+        margin-top: 20px;;
+    }
   .profile-slider-custom > .photo
 {
     width: 72%;
@@ -865,6 +875,11 @@ border: 1px solid red;
 }
 @media (min-width: 700px) and (max-width: 950px)
 {
+    .profile-slider-custom
+    {
+        margin: auto;
+        margin-top: 20px;;
+    }
   .profile-slider-custom > .photo
 {
     width: 64.8%;
