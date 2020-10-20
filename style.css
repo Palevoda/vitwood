@@ -772,6 +772,13 @@ border: 1px solid red;
   margin: auto;
 }
 
+@media (max-width: 600px)
+{
+.profile-slider-custom
+{
+    min-width: 95%;;
+}    
+}
 
 .profile-slider-custom > .photo
 {
