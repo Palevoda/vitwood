@@ -530,7 +530,7 @@ max-height: 300px;
     .propos1-text
 {
     font-size: 12.5pt;
-    margin-top: 35px;;
+    margin-top: 25px;;
     padding: 10px 0px;
     margin-left: 5%;
     width: 90%;
@@ -1779,6 +1779,7 @@ background-color: rgb(248,249,250);
         display: none;
     }
 }
+
 
 .logo-mobile
 {
