@@ -29,12 +29,12 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text
 {
     max-width: 1220px;
-    margin: auto;
-   
+    margin: auto;   
 }
+
 .href-call, .href-call:hover
 {
     text-decoration: none;
@@ -777,6 +777,14 @@ border: 1px solid red;
 .profile-slider-custom
 {
     min-width: 95%;;
+}    
+}
+
+@media (min-width: 600px) and (max-width: 800px)
+{
+.profile-slider-custom
+{
+    min-width: 80%;;
 }    
 }
 
@@ -1641,10 +1649,17 @@ margin-right: 6px;
     font-size: 24pt;
     margin-top: 20px;
     font-weight: 600;
-    font-family: roboto;
+   
     margin-bottom: 35px;
     margin-top: 35px;
     padding-left: 20px;
+
+}
+
+.name-of-block > a > span 
+{
+  
+        color: rgb(59,59,59);
 
 }
 .name-of-block-right
@@ -1653,6 +1668,7 @@ margin-right: 6px;
     color: rgb(59,59,59);
     width: 100%;
     padding-right: 20px;
+
   
 }
 
@@ -2024,4 +2040,30 @@ color: rgb(59,59,59);
     padding-bottom: 0;
     
 }
+}
+
+.block-of-text
+{
+    width: 63%;
+    font-size: 13pt;
+    color: rgb(59,59,59);
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif
+}
+
+@media (max-width: 600px)
+{
+    .block-of-text
+    {
+        width: 95%;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .block-of-text
+    {
+        width: 75%;
+    }
 }
