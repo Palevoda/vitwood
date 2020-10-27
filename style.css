@@ -1083,7 +1083,7 @@ border: 1px solid red;
 .how-open > .little
 {
      width: 14%;
-     margin-left: 2.2%;  
+     margin-left: 3.9%;  
      margin-top: 25px;
      
      min-width: 150px;
@@ -2003,15 +2003,33 @@ color: rgb(59,59,59);
   width: 60%;
 
 }
+.type-identify-2
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+ margin: auto;
 
-.type-identify > div
+  width: 70%;
+
+}
+
+    .type-identify-2 > div > img
+{
+   box-shadow: 15px 15px 0px rgb(59,59,59);;
+}
+
+.type-identify > div, .type-identify-2 > div
 {
     width: 48%;
     padding: 20px;
     min-width: 350px;
 }
 
-.type-identify > div > h3
+.type-identify > div > h3, .type-identify-2 > div > h3
 {
     margin-top: 15px;
     font-size: 18pt;
@@ -2020,21 +2038,39 @@ color: rgb(59,59,59);
     color: rgb(49,49,49);
 }
 
-.type-identify > div > p
+.type-identify > div > p, .type-identify-2 > div > p
 {
   
     font-size: 13pt;
     font-weight: 500;
     color: gray;
 }
+.type-identify-2 > div > p
+{
+    margin-top: 25px;;
+}
+.intext_href
+{
+     color: rgb(119,119,119);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.intext_href:hover
+{
+       color: rgb(59,59,59);
+
+    font-weight: 600;
+    text-decoration: none;
+}
 
 @media (min-width: 300px) and (max-width: 600px)
 {
-    .type-identify
+    .type-identify, .type-identify-2
     {
         width: 100%;
     }
-    .type-identify > div
+    .type-identify > div, .type-identify-2 > div
 {
     width: 48%;
     padding-bottom: 0;
