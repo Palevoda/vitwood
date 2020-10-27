@@ -1389,20 +1389,20 @@ border-left: none;
         max-width: 240px;
         margin: auto;
         margin-bottom: 15px;
-        border: 3px dashed rgb(59,59,59);
+        border: 3px solid rgb(59,59,59);
         text-align: center;
     }
     #redtree-button
     {
         padding: 10px 0px;
-        border: 3px dashed rgb(59,59,59);
-        border-left: 3px dashed rgb(59,59,59);
+        border: 3px solid rgb(59,59,59);
+        border-left: 3px solid rgb(59,59,59);
         
     }
 
     #how-open-head-first
 {
-border-left: 3px dashed rgb(59,59,59);
+border-left: 3px solid rgb(59,59,59);
 }
 }
 
@@ -2016,7 +2016,10 @@ color: rgb(59,59,59);
   width: 70%;
 
 }
-
+.ti-mod-1
+{
+    width: 78%;
+}
     .type-identify-2 > div > img
 {
    box-shadow: 15px 15px 0px rgb(59,59,59);;
