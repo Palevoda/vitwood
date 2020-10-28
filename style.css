@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block
 {
     max-width: 1220px;
     margin: auto;   
@@ -210,7 +210,7 @@ padding-top: 5px;
     width: 100%;
     background-color: rgb(248, 249, 250);
     text-align: center;
-  
+   
     font-family: roboto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 12pt;
@@ -2105,4 +2105,10 @@ color: rgb(59,59,59);
     {
         width: 75%;
     }
+}
+
+.video-block
+{
+    width: 60%;
+    margin-left: 20%;
 }
