@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech
 {
     max-width: 1220px;
     margin: auto;   
@@ -2058,7 +2058,15 @@ color: rgb(59,59,59);
     font-weight: 600;
     text-decoration: none;
 }
+.ti-mod-3
+{
+    text-align: left;
+}
 
+.right-mod > p
+{
+    padding-left: 40px;
+}
 .intext_href:hover
 {
        color: rgb(59,59,59);
@@ -2120,4 +2128,74 @@ color: rgb(59,59,59);
     width: 100%;
     margin-left: 0px;;
 }
+}
+
+.open-type-mech
+{
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.open-type-mech > div
+{
+    max-width: 400px;
+    width: 24%;
+    margin: 0.5%;    
+    box-shadow: 0px 0px 2px black;;
+}
+
+@media (max-width: 600px)
+{
+    .open-type-mech > div
+{
+    width: 100%;
+}
+.name-of-block, .name-of-block-right
+{
+  text-align: center; 
+}
+}
+.open-type-mech > div > .header
+{
+    
+    background-color: rgb(59,59,59);
+    width: 100%;
+    padding: 10px;
+    padding-top: 15px;
+}
+.open-type-mech > div > .header > h3
+{
+    color: rgb(248,249,250);
+    font-weight: 600;
+    font-size: 17pt;
+}
+
+.open-type-mech > div > .sub-ul
+{
+    min-height: 380px;;
+    color: gray;
+}
+
+.open-type-mech > div > .position
+{
+  padding: 0px 20px;
+  text-align: left;
+  color: gray;
+}
+
+.position-num
+{
+    color: rgb(59,59,59);
+    font-weight: 600;;
+}
+
+.ch-mod > h2
+{
+    font-size: 18pt;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
 }
