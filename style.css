@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion
 {
     max-width: 1220px;
     margin: auto;   
@@ -2198,4 +2198,47 @@ color: rgb(59,59,59);
     font-size: 18pt;
     font-weight: 500;
     color: rgb(59, 59, 59);
+}
+
+
+
+.attantion
+{
+    font-size: 13pt;;
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+
+  box-shadow: 0px 0px 2px black;;
+  padding: 10px;
+  text-align: justify;
+  background-color: rgb(243, 244, 245);
+}
+
+.attantion > img 
+{
+    width: 20%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    
+    
+}
+.attantion > p
+{
+    width: 80%;
+    color: rgb(59,59,59);
+}
+
+@media (min-width: 1000px)
+{
+    .attantion > p
+{
+    margin-left: 50px;
+}
 }
