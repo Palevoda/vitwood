@@ -25,11 +25,11 @@ position: relative;
 {
     color: rgb(59,59,59);
     text-align: center;
-    font-size: 24pt;
+    font-size: 26pt;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows
 {
     max-width: 1220px;
     margin: auto;   
@@ -2171,7 +2171,7 @@ color: rgb(59,59,59);
 {
     color: rgb(248,249,250);
     font-weight: 600;
-    font-size: 17pt;
+    font-size: 16pt;
 }
 
 .open-type-mech > div > .sub-ul
@@ -2242,3 +2242,100 @@ color: rgb(59,59,59);
     margin-left: 50px;
 }
 }
+
+/*Большие навигационные блоки*/
+.pan-windows
+{
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  padding: 10px;
+}
+
+.pan-windows > div
+{
+  margin: 1%;
+  width: 48%;
+  box-shadow: 0px 0px 2px black;;
+  text-align: center;
+  min-width: 350px;  
+}
+
+.pan-windows > div:hover
+{
+  
+  box-shadow: 0px 0px 5px black;;
+  
+}
+
+@media (max-width: 600px)
+{
+    .pan-windows > div
+    {
+        width: 100%;
+    }
+}
+
+.pan-windows > div > a > img
+{
+  width: 100%;
+  box-shadow: 0px 1px 1px black;
+}
+
+.pan-windows > div > .text-content
+{
+  width: 100%;
+  padding: 10px;
+  font-size: 12.5pt;
+  color: rgb(59,59,59);
+  margin-bottom: 25px;
+}
+.pan-windows > div > .text-content > h3
+{
+  text-align: center;
+  padding: 5px;;
+}
+
+
+.pan-windows > div > .text-content > h3 > a
+{
+  font-size: 22pt;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(59,59,59);
+}
+
+.pan-windows > div > .text-content > h3 > a:hover
+{
+  text-decoration: none;  
+  color: rgb(99,99,99);
+}
+
+
+.pan-windows > div > .text-content > p
+{
+  font-size: 13pt;
+  text-align: justify;
+
+}
+
+.pan-windows > div > .text-content > a
+{
+   padding: 7px 30px;
+   border: 3px dashed rgb(59,59,59);
+   color: rgb(59,59,59);
+   font-size: 14pt;
+}
+
+
+.pan-windows > div > .text-content > a:hover
+{
+  text-decoration: none;
+   border: 3px solid rgb(59,59,59);
+   
+
+/*===========================*/
