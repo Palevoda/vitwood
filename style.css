@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block
 {
     max-width: 1220px;
     margin: auto;   
@@ -2398,5 +2398,41 @@ color: rgb(59,59,59);
   text-decoration: none;
    border: 3px solid rgb(59,59,59);
    
+}
+/*============Специальный блок для наборов по уходу===============*/
 
-/*===========================*/
+.special-block
+{
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  margin: auto;
+  text-align: center;
+
+  width: 100%;
+}
+
+.special-block > img
+{
+  width: 48%;
+}
+
+.special-block > div
+{
+  width: 26%;
+  padding: 10px;
+  min-width: 310px;  
+}
+
+@media (max-width: 600px)
+{
+    .special-block > div,.special-block > img
+{
+  width: 100%; 
+}
+}
+
+/*============================*/
