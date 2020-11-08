@@ -2511,3 +2511,28 @@ color: rgb(59,59,59);
     margin: 1%;;
     border: 2px solid rgb(59,59,59);
 }
+@media (min-width: 700px)
+{
+    #safety_photo_2
+ {
+     display: block;
+ }   
+ #safety_photo_1
+ {
+     display: none;
+ }  
+}
+
+
+
+@media (max-width: 700px)
+{
+     #safety_photo_1
+ {
+     display: none;
+ }   
+ #safety_photo_2
+ {
+     display: block;
+ }   
+}
