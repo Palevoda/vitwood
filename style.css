@@ -2502,3 +2502,12 @@ color: rgb(59,59,59);
 }
 
 /*============================*/
+
+.h-o-d--mod
+{
+    min-width: 300px;
+    max-width: 350px;
+    width: 24%;
+    margin: 1%;;
+    border: 2px solid rgb(59,59,59);
+}
