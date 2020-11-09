@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles
 {
     max-width: 1220px;
     margin: auto;   
@@ -2135,13 +2135,19 @@ color: rgb(59,59,59);
     min-width: 350px;
 }
 
-.type-identify > div > h3, .type-identify-2 > div > h3
+.type-identify > div > h3, .type-identify-2 > div > h3, .type-identify-2 > div > h3 > a
 {
     margin-top: 15px;
     font-size: 18pt;
     font-weight: 600;
     margin-bottom: 15px;
     color: rgb(49,49,49);
+}
+
+.type-identify-2 > div > h3 > a:hover
+{
+color: rgb(109,109,109);
+text-decoration: none;
 }
 
 .type-identify > div > p, .type-identify-2 > div > p
@@ -2534,4 +2540,11 @@ color: rgb(59,59,59);
  {
      display: none;
  }   
+}
+
+
+.m-u-mod-1 > li > span
+{
+    color: gray;
+
 }
