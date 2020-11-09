@@ -2205,7 +2205,12 @@ text-decoration: none;
     color: rgb(59,59,59);
     text-align: center;
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif
+font-family: 'Times New Roman', Times, serif
+}
+
+.b-o-t-mod-1
+{
+    width: 100%;
 }
 
 @media (max-width: 600px)
