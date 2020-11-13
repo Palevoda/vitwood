@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles, .simple-card, .simple-card-fourcard
 {
     max-width: 1220px;
     margin: auto;   
@@ -2552,4 +2552,154 @@ font-family: 'Times New Roman', Times, serif
 {
     color: gray;
 
+}
+
+.simple-card, .simple-card-fourcard
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  margin: auto;
+}
+
+.simple-card > div
+{
+    width: 30%;
+    margin: 1%;
+    min-width: 350px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 5px gray;
+
+    background-color: rgb(249,250,251);;
+
+  
+}
+
+.line {display: none}
+
+@media (max-width: 600px)
+{
+ .simple-card > div
+ {
+     box-shadow: none
+ }   
+
+ .line 
+ {
+     display: block;
+ }
+}
+
+.simple-card > div > h3
+{
+    text-align: center;
+    color: rgb(59,59,59);
+    font-weight: 600;
+    font-size: 22pt;;
+    border-bottom: 2.5px solid red;
+    padding-bottom: 10px;
+
+    margin-bottom: 10px;
+}
+
+.simple-card > div > p
+{
+    font-size: 13pt;;
+    text-align: justify;
+    color: gray;
+}
+
+/*simple-card-fourcard */
+
+ .simple-card-fourcard
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  margin: auto;
+}
+
+ .simple-card-fourcard > div
+{
+    width: 23%;
+    margin: 1%;
+
+
+
+    text-align: center;
+
+    box-shadow: 0px 0px 5px gray;
+
+    background-color: rgb(249,250,251);;
+  
+}
+
+ .simple-card-fourcard > div:hover
+{ 
+    box-shadow: 0px 0px 12px gray;  
+    background-color: rgb(59,59,59);
+}
+
+ .simple-card-fourcard > div:active
+{ 
+   box-shadow: none;
+}
+
+ .simple-card-fourcard > div:hover > h3 
+{ 
+    background-color: rgb(59,59,59);
+}
+
+ .simple-card-fourcard > div:hover > h3 > a
+{ 
+    color: rgb(248,249,250);
+}
+
+@media (max-width: 1500px)
+{
+     .simple-card-fourcard > div
+{
+    min-width: 350px;;
+  
+}
+}
+
+
+ .simple-card-fourcard > div > h3
+{
+    text-align: center;
+    color: rgb(59,59,59);
+    font-weight: 600;
+    font-size: 22pt;;
+    padding-bottom: 10px;
+padding-top: 10px;;
+
+
+}
+
+.simple-card-fourcard > div > h3 > a :hover, .simple-card-fourcard > div > h3 > a 
+{
+     text-align: center;
+    color: rgb(59,59,59);
+    font-weight: 600;
+    font-size: 22pt;;
+    
+    text-decoration: none;
+}
+
+ .simple-card-fourcard > div > p
+{
+    font-size: 13pt;;
+    text-align: justify;
+    color: gray;
 }
