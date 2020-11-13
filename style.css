@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles, .simple-card, .simple-card-fourcard
+.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles, .simple-card, .simple-card-fourcard,  .simple-card-fourcard-mod-3
 {
     max-width: 1220px;
     margin: auto;   
@@ -2683,8 +2683,11 @@ font-family: 'Times New Roman', Times, serif
     font-size: 22pt;;
     padding-bottom: 10px;
 padding-top: 10px;;
+}
 
-
+.simple-card-fourcard > div >a> img
+{
+    border-top: 3px solid red;
 }
 
 .simple-card-fourcard > div > h3 > a :hover, .simple-card-fourcard > div > h3 > a 
@@ -2698,6 +2701,100 @@ padding-top: 10px;;
 }
 
  .simple-card-fourcard > div > p
+{
+    font-size: 13pt;;
+    text-align: justify;
+    color: gray;
+}
+
+/*simple-card-fourcard остекление */
+
+ .simple-card-fourcard-mod-3
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  margin: auto;
+}
+
+ .simple-card-fourcard-mod-3 > div
+{
+    width: 28%;
+    margin: 1%;
+
+
+
+    text-align: center;
+
+    box-shadow: 0px 0px 5px gray;
+
+    background-color: rgb(249,250,251);;
+  
+}
+
+ .simple-card-fourcard-mod-3 > div:hover
+{ 
+    box-shadow: 0px 0px 12px gray;  
+    background-color: rgb(59,59,59);
+}
+
+ .simple-card-fourcard-mod-3 > div:active
+{ 
+   box-shadow: none;
+}
+
+ .simple-card-fourcard-mod-3 > div:hover > h3 
+{ 
+    background-color: rgb(59,59,59);
+}
+
+ .simple-card-fourcard-mod-3 > div:hover > h3 > a
+{ 
+    color: rgb(248,249,250);
+}
+
+@media (max-width: 1500px)
+{
+    .simple-card-fourcard-mod-3 > div
+{
+    min-width: 350px;;
+  
+}
+}
+
+
+ .simple-card-fourcard-mod-3 > div > h3
+{
+    text-align: center;
+    color: rgb(59,59,59);
+    font-weight: 600;
+    font-size: 22pt;;
+    padding-bottom: 10px;
+padding-top: 10px;;
+
+}
+
+
+
+ .simple-card-fourcard-mod-3 > div >a> img
+{
+    border-top: 3px solid red;
+}
+
+ .simple-card-fourcard-mod-3 > div > h3 > a :hover,  .simple-card-fourcard-mod-3 > div > h3 > a 
+{
+     text-align: center;
+    color: rgb(59,59,59);
+    font-weight: 600;
+    font-size: 19pt;;
+    
+    text-decoration: none;
+}
+
+ .simple-card-fourcard-mod-3 > div > p
 {
     font-size: 13pt;;
     text-align: justify;
