@@ -2911,3 +2911,102 @@ padding-top: 10px;;
     font-size: 14pt;
     text-align: center;
 }
+
+
+
+/*services-block-page*/
+
+.services-block-page
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1220px;
+}
+
+
+.services-block-page > div 
+{
+    width: 35%;
+    min-width: 350px;
+    margin: 45px 5%;
+    box-shadow: 0px 0px 5px gray;
+    text-align: justify;
+}
+
+@media (max-width: 600px)
+{
+ .services-block-page > div 
+{   
+    margin: 10px 1%;
+    min-width: 375px;   
+}
+}
+
+@media (min-width: 600px) and (max-width: 800px)
+{
+  .services-block-page > div 
+{   
+    margin: 13px 1%;
+    min-width: 450px;   
+}
+}
+
+.services-block-page > div:hover
+{
+       box-shadow: 0px 0px 7px gray;
+}
+
+.services-block-page > div > img
+{
+    border-radius: 12px;
+}
+
+.services-block-page > div > h3, .services-block > div > h3 > a
+{
+    text-align: center;
+    padding: 10px 0px;
+    padding-bottom: 4px;
+    font-size: 23pt;
+    font-weight: 600;
+    color: rgb(59,59,59);
+    text-decoration: none;
+}
+
+.services-block-page > div > h3 > a:hover{color: rgb(99,99,99); text-decoration: none;}
+
+.services-block-page > div > a
+{
+    
+    font-size: 16pt;
+    text-align: center;
+    padding: 8px 35px;
+    background-color: rgb(59,59,59);
+    color: rgb(248,249,250);
+    margin: auto;
+    text-decoration: none;
+}
+
+.services-block-page > div > a:hover
+{
+    color: rgb(59,59,59);
+    background-color: rgb(248,249,250);
+    border: 2px solid rgb(59,59,59);
+    text-decoration: none;
+}
+
+.services-block-page > div > div > p
+{
+    padding: 12px;
+    color: gray;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.sbp-p
+{
+    text-align: justify;
+}
