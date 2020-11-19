@@ -29,7 +29,7 @@ position: relative;
     margin-top: 20px;
 }
 
-.why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles, .simple-card, .simple-card-fourcard,  .simple-card-fourcard-mod-3, .yandex_map, .b-o-t-mod-2
+.carusel-type1, .why-we, .about-company, .profiles, .materials-1, .how-open, .open-type-menu,.colors, .name-of-block, .p-doptext, .if-you-have-questions,.magazines, .type-identify, .block-of-text, .video-block, .open-type-mech, .attantion, .pan-windows,.special-block, .handles, .simple-card, .simple-card-fourcard,  .simple-card-fourcard-mod-3, .yandex_map, .b-o-t-mod-2
 {
     max-width: 1220px;
     margin: auto;   
@@ -384,6 +384,7 @@ ul.menu > li:hover > ul.submenu {
     max-width: 1220px;
     max-height: 500px;
     margin:auto;
+    
 }
 
 .main-car-1-my-changes
@@ -2806,6 +2807,7 @@ padding-top: 10px;;
   margin-left: 20%;
   width: 60%;
   height: 450px;
+ 
 }
 
 @media (max-width: 800px)
@@ -2816,4 +2818,96 @@ padding-top: 10px;;
   width: 95%;
   height: 300px;
 }
+}
+/*services-block*/
+
+.services-block
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1220px;
+}
+
+
+.services-block > div 
+{
+    width: 35%;
+    min-width: 350px;
+    margin: 45px 5%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+}
+
+@media (max-width: 600px)
+{
+    .services-block > div 
+{   
+    margin: 10px 1%;
+    min-width: 375px;   
+}
+}
+
+@media (min-width: 600px) and (max-width: 800px)
+{
+    .services-block > div 
+{   
+    margin: 13px 1%;
+    min-width: 450px;   
+}
+}
+
+.services-block > div:hover
+{
+       box-shadow: 0px 0px 7px gray;
+}
+
+.services-block > div > img
+{
+    border-radius: 12px;
+}
+
+.services-block > div > h3, .services-block > div > h3 > a
+{
+    text-align: center;
+    padding: 10px 0px;
+    padding-bottom: 4px;
+    font-size: 23pt;
+    font-weight: 600;
+    color: rgb(59,59,59);
+    text-decoration: none;
+}
+
+.services-block > div > h3 > a:hover{color: rgb(99,99,99); text-decoration: none;}
+
+.services-block > div > a
+{
+    
+    font-size: 16pt;
+    text-align: center;
+    padding: 8px 35px;
+    background-color: rgb(59,59,59);
+    color: rgb(248,249,250);
+    margin: auto;
+    text-decoration: none;
+}
+
+.services-block > div > a:hover
+{
+    color: rgb(59,59,59);
+    background-color: rgb(248,249,250);
+    border: 2px solid rgb(59,59,59);
+    text-decoration: none;
+}
+
+.services-block > div > p
+{
+    padding: 12px;
+    color: gray;
+    font-size: 14pt;
+    text-align: center;
 }
