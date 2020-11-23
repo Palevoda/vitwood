@@ -1910,8 +1910,9 @@ display: none;
 background-color: rgb(248,249,250);
 }
 
-@media (max-width: 1220px)
+@media (max-width: 990px)
 {
+    
     .mobile-menu
     {
         display: block;
@@ -1920,6 +1921,34 @@ background-color: rgb(248,249,250);
     .navbar-1, .navbar-2
     {
         display: none;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1220px)
+{
+    article, body
+    {
+      text-align: center;
+    }
+    .nav1-flexblock2
+    {
+        margin-left: 25px;
+        margin-left: 10%;
+    }
+
+    #time-of-work
+    {
+        display: none;
+    }
+
+    .tail, .propos1, .nameofpage, .block-of-text, .b-o-t-mod-2, .if-you-have-questions, footer
+    {
+       margin-left: 10%;;
+        width: 990px;
+    }
+    .block-of-text > p
+    {
+        width: 990px;
     }
 }
 
@@ -2866,10 +2895,7 @@ padding-top: 10px;;
        box-shadow: 0px 0px 7px gray;
 }
 
-.services-block > div > img
-{
-    border-radius: 12px;
-}
+
 
 .services-block > div > h3, .services-block > div > h3 > a
 {
@@ -2881,6 +2907,7 @@ padding-top: 10px;;
     color: rgb(59,59,59);
     text-decoration: none;
 }
+
 
 .services-block > div > h3 > a:hover{color: rgb(99,99,99); text-decoration: none;}
 
@@ -2902,6 +2929,18 @@ padding-top: 10px;;
     background-color: rgb(248,249,250);
     border: 2px solid rgb(59,59,59);
     text-decoration: none;
+}
+
+.services-block > div > img  
+{
+    border-radius: 12px;
+}
+
+.href-photo:hover
+{
+    border: none;
+    padding: 0px;
+
 }
 
 .services-block > div > p
@@ -3009,4 +3048,9 @@ padding-top: 10px;;
 .sbp-p
 {
     text-align: justify;
+}
+
+body 
+{
+    background-color: rgb(248,249,250);
 }
