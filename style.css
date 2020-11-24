@@ -3054,3 +3054,33 @@ body
 {
     background-color: rgb(248,249,250);
 }
+
+.dynamic-line
+{
+    height: 50px;
+    margin: auto;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 2px solid red;
+    text-align: center;
+
+
+    margin-bottom: 0px;
+    margin-top: 5px;
+    max-width: 1220px;
+
+    background-color: rgb(248,249,250);;
+    color: rgb(59,59,59);
+
+    font-size: xx-large;
+}
+
+#portfolio-slider {display: block;}
+
+@media (min-width: 300px) and (max-width: 575px)
+{
+    #portfolio-slider
+    {
+        display: none;
+    }
+}
